@@ -19,6 +19,7 @@ Je stuurt een paar foto's, wij doen de rest. Voordat we gaan schilderen en voord
 | 15 cm – extra veel detail | € 99 |
 
 Prijzen inclusief btw en verzending binnen Nederland. Verzending naar België: + € 6.
+*[Testfase: voor de eerste 5 bestellingen een introductieprijs van € 49 (8 cm) en € 65 (12 cm), zonder doorgestreepte "van"-prijs; 15 cm pas na de test aanbieden. Zie `rapport.md` §8.]*
 
 **Knop:** `Kies formaat en upload je foto's →`
 

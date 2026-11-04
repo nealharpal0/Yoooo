@@ -195,7 +195,7 @@ Rekenmodel: [`kostprijs.csv`](kostprijs.csv). Pas de aannames aan zodra je echte
 - **Op geen enkel niveau** zijn de uren betaald tegen € 15; daarvoor moet 12 cm naar ± € 120 of moet de tijd omlaag (speedpaint, vaste houdingen).
 - **Etsy** kost € 6,67–10,87 per verkoop (6,5% + 4% + € 0,30 + $0,20) tegen € 1,57–2,37 via Pootjespret. Shopify Payments i.p.v. Mollie scheelt de extra 2% (niet gecontroleerd of dat voor jou kan).
 
-**Advies:** start op **middenniveau** (12 cm € 79), meet de echte uren en ga naar **hoog** zodra de kwaliteit vaststaat. Concurreer niet met onbeschilderde prints (€ 16–40).
+**Advies:** na een introductieprijs op laag niveau voor de eerste 5 testbeeldjes (zie 8) ga je naar **middenniveau** (12 cm € 79); meet de echte uren en ga naar **hoog** zodra de kwaliteit vaststaat. Concurreer niet met onbeschilderde prints (€ 16–40).
 
 ### 5.4 Opbrengst verdelen met je vriend
 

@@ -259,3 +259,79 @@ Er zijn weinig onafhankelijke reviews over deze kleine aanbieders. Wat terugkomt
 - Klachten: https://ca.trustpilot.com/review/petpalsdiy.com ; https://articles.hepper.com/petsies-custom-pet-plushies-review/ ; https://nl-be.trustpilot.com/review/herinnerdingendoos.nl
 
 ---
+
+## 5. Kostprijs, verkoopprijs en verdeling
+
+Het volledige rekenmodel staat in [`kostprijs.csv`](kostprijs.csv) (puntkomma-gescheiden, decimale komma). Pas de aannames aan zodra je echte slicer- en schildertijden hebt.
+
+### 5.1 Uitgangspunten
+
+- **Printen:** FDM met PLA (resin is per beeldje vergelijkbaar of iets duurder, zie 2.3), 15% opslag voor mislukte prints.
+- **3D-model:** Meshy Pro $20/mnd (omgerekend met de aanname 1 USD ≈ € 0,87; de koers lag in oktober–november 2026 rond 1,12–1,15 dollar per euro), verdeeld over **5 beeldjes per maand**. Bij 20 per maand daalt dit van € 3,48 naar € 0,87.
+- **Printer van je werkgever:** in het model staat een **aangenomen vergoeding van € 0,50 per printuur**. Dat bedrag is niet gebaseerd op een bron, maar een plaatshouder voor de afspraak met je werkgever (zie 6.4).
+- **Verzending:** PostNL klein pakket tot 3 kg naar een huisadres in NL € 6,35 (online frankering, tarieven vanaf 12 juli 2026). België: pakket 0–2 kg naar huisadres € 12,25; reken daar € 6 toeslag.
+- **Betaalkosten:** Pootjespret heeft een **Shopify Basic**-abonnement (opgevraagd via de Shopify-koppeling). Het abonnement betaal je al, dus extra platformkosten zijn € 0. Voor de betaalkosten spreken bronnen elkaar tegen (iDEAL ±€ 0,29 vast; kaart 2,1% + € 0,30 of 2,9% + € 0,25). Het model rekent conservatief met **2,9% + € 0,30**.
+- **Btw:** het model gaat uit van de **kleineondernemersregeling (KOR)**, dus geen btw (zie 6.1). Zonder KOR gaat er 21% btw van de prijs af; die regel staat ook in de CSV.
+- **Arbeid:** eigen tijd 1,25–1,75 uur en schildertijd 2–4,25 uur per beeldje (eigen schattingen). Voor de kostprijs is een rekentarief van **€ 15 per uur** gebruikt; dat is een aanname, geen loon.
+
+### 5.2 Kostprijs per beeldje
+
+| | 8 cm | 12 cm | 15 cm |
+|---|---|---|---|
+| 3D-model (Meshy, 5/mnd) | € 3,48 | € 3,48 | € 3,48 |
+| Filament incl. misdrukken | € 0,83 | € 2,48 | € 4,83 |
+| Filler, primer, verf, vernis | € 1,00 | € 1,50 | € 2,00 |
+| Printervergoeding (aanname) | € 1,12 | € 3,00 | € 5,25 |
+| Verpakking | € 2,00 | € 2,25 | € 2,50 |
+| Verzending NL | € 6,35 | € 6,35 | € 6,35 |
+| **Directe kosten** | **€ 14,78** | **€ 19,06** | **€ 24,41** |
+| Arbeid (uren × € 15) | € 48,75 | € 71,25 | € 90,00 |
+| **Kostprijs incl. arbeid** | **€ 63,53** | **€ 90,31** | **€ 114,41** |
+
+De **arbeid is 75–80% van de kostprijs**. Materiaal is bijna verwaarloosbaar; tijd is de echte kostenpost.
+
+### 5.3 Drie prijsniveaus (incl. verzending NL)
+
+| Niveau | 8 cm | 12 cm | 15 cm | Marge excl. arbeid (12 cm) | Opbrengst per arbeidsuur | Break-even (mix) |
+|---|---|---|---|---|---|---|
+| **Laag** (gelijk aan Atelier Robijns/Etsy) | € 49 | € 65 | € 79 | € 43,75 | ± € 9–10 | 7 stuks |
+| **Midden** (advies) | € 59 | € 79 | € 99 | € 57,34 | ± € 12–13 | 5 stuks |
+| **Hoog** (premium: naamplaatje, 2 correctierondes, cadeauverpakking) | € 75 | € 99 | € 125 | € 76,77 | ± € 16–18 | 4 stuks |
+
+- **Break-even** = vaste startkosten (€ 277: startpakket € 145, KVK € 85, proefprints € 25, rol PLA € 22) gedeeld door de marge exclusief arbeid. Bij een mix van 25% 8 cm, 50% 12 cm en 25% 15 cm. Dit is het punt waarop je je **uitgaven** terug hebt; de uren zijn dan nog niet betaald.
+- **Pas vanaf het hoge niveau** wordt de arbeid volledig gedekt tegen € 15 per uur. Op het lage niveau verdienen jullie samen ±€ 9–10 per uur.
+- **Via Etsy** kost een verkoop op middenniveau € 6,67–10,87 aan platform- en betaalkosten (6,5% transactie + 4% + € 0,30 betaling + $0,20 listing), tegenover € 2–3 via Shopify. Etsy is wel een extra vindplaats.
+
+**Advies:** start op **middenniveau** (12 cm voor € 79), vergelijk na 5–10 verkopen de echte uren en schuif op naar hoog als de kwaliteit het toelaat. Concurreer niet op prijs met onbeschilderde prints (€ 16–40).
+
+### 5.4 Opbrengst verdelen met je vriend
+
+Rekenvoorbeeld bij middenniveau (marge excl. arbeid: 8 cm € 42,21; 12 cm € 57,34; 15 cm € 71,42):
+
+| | 8 cm | 12 cm | 15 cm |
+|---|---|---|---|
+| **Optie 1: vast bedrag** voor de schilder | € 25 | € 35 | € 45 |
+| → schilder per uur | € 12,50 | € 10,77 | € 10,59 |
+| → rest voor jou | € 17,21 | € 22,34 | € 26,42 |
+| **Optie 2: winstdeling 50/50** (ieder) | € 21,10 | € 28,67 | € 35,71 |
+| → schilder per uur | € 10,55 | € 8,82 | € 8,40 |
+| **Optie 2b: winstdeling naar uren** – schilder | € 25,97 | € 39,24 | € 50,59 |
+| → jij | € 16,23 | € 18,11 | € 20,83 |
+
+| | Vast bedrag per beeldje | Winstdeling |
+|---|---|---|
+| **Voordelen** | Simpel; je vriend weet precies wat hij/zij krijgt; jij houdt zeggenschap over prijs en kanaal; weinig administratie | Gedeeld risico en gedeelde motivatie; schilder profiteert mee van hogere prijzen; eerlijk als je vriend ook meedenkt over verkoop |
+| **Nadelen** | Jij draagt het risico (retouren, mislukte beeldjes, lage verkoop); schilder profiteert niet mee bij prijsverhoging; bij lage prijzen kan het vaste bedrag je marge opeten | Vraagt open boekhouding en afspraken over welke kosten meetellen; uitkomst per beeldje wisselt; bij 50/50 krijgt de schilder relatief weinig per uur omdat hij/zij meer uren maakt; samen ondernemen met winstdeling kan juridisch als samenwerkingsverband (vof/maatschap) gezien worden, met gedeelde aansprakelijkheid (zie 6.5) |
+
+**Advies:** begin met **optie 1 (vast bedrag per beeldje)** voor de testfase: helder, makkelijk vast te leggen en geen gezamenlijke onderneming. Spreek af dat jullie na 10–20 beeldjes evalueren en eventueel overstappen op **winstdeling naar uren (2b)**, wat eerlijker is dan 50/50 omdat schilderen de meeste tijd kost. Leg ook vast wie mislukte of afgekeurde beeldjes betaalt.
+
+**Bronnen deel 5**
+- Shopify-plan: opgevraagd via de Shopify-koppeling (Pootjespret, plan "Basic", valuta EUR), 4-11-2026
+- Shopify Payments NL: https://www.shopify.com/nl/blog/shopify-payments ; https://qualimero.com/blog/shopify-gebuehren ; https://www.experte.de/ecommerce/shopify-kosten
+- Etsy-kosten: https://wisepim.com/tools/etsy-fee-calculator ; https://www.gelato.com/nl/blog/etsy-fees
+- PostNL: https://www.postnl.nl/api/assets/blt43aa441bfc1e29f2/blt5e65605bca8690e0/tarievenboekje-12-juli-2026.pdf ; https://www.postnl.nl/api/assets/blt43aa441bfc1e29f2/blt4645e1ee01ff026a/tarievenfolder-2026b-EN.pdf
+- KVK-inschrijfvergoeding: https://www.kvk.nl/inschrijven/inschrijfvergoeding/
+- Wisselkoers: https://tradingeconomics.com/euro-area/currency/news/498610 ; https://30rates.com/eur-usd-forecast-tomorrow-this-week
+- Verpakking: https://hyperstack.viv.nl/kartonnen-dozen/verzendkokers
+
+---

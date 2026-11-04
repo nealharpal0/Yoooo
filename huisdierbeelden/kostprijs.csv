@@ -1,0 +1,66 @@
+post;uitleg;8 cm;12 cm;15 cm;bron_of_aanname
+# A. VARIABELE KOSTEN PER BEELDJE (FDM, levering NL);;8 cm;12 cm;15 cm;bron / aanname
+3D-model (Meshy Pro);"USD 20/mnd x 0.87 / 5 beeldjes per maand; 3 pogingen x ca. 35 credits passen binnen 1.000 credits";3,48;3,48;3,48;"meshy.ai/pricing; docs.meshy.ai/en/webapp/pricing; koers aanname (EUR/USD ca. 1,12-1,15 okt-nov 2026)"
+Filament PLA;gram x EUR 0,024/g x 1,15 (15% misdrukken);0,83;2,48;4,83;"gram = eigen schatting [30, 90, 175]; prijs 123-3D EUR 22,25-26,50/kg"
+Filler, primer, verf, vernis (verbruik);eigen schatting per beeldje;1,00;1,50;2,00;"eigen schatting; startpakket.csv"
+Printervergoeding werkgever;printuren [2.25, 6.0, 10.5] x EUR 0.5/uur;1,12;3,00;5,25;"AANNAME; bedrag afspreken met werkgever (zie rapport 6.4)"
+Verpakking (doos, vulmateriaal, kaartje);eigen schatting;2,00;2,25;2,50;"doos ca. EUR 1,12-1,36 (viv.nl, ander formaat); rest eigen schatting"
+Verzending NL (PostNL pakket tot 3 kg, huisadres, online);;6,35;6,35;6,35;PostNL tarievenboekje 12 juli 2026
+SUBTOTAAL directe kosten excl. betaalkosten en arbeid;;14,78;19,06;24,41;
+Verzending BE ter info;PostNL pakket 0-2 kg huisadres BE, online frankering;12,25;12,25;12,25;"PostNL tarievenfolder 2026b; reken BE-toeslag van EUR 6"
+Betaalkosten Shopify Payments;"conservatief: 2,9% + EUR 0,30 (kaart); iDEAL ca. EUR 0,29 vast";zie C;zie C;zie C;"bronnen tegenstrijdig; qualimero.com / experte.de"
+Platformkosten Shopify;Basic-abonnement Pootjespret bestaat al;0,00;0,00;0,00;Shopify-account: plan Basic (opgevraagd 4-11-2026)
+Platformkosten Etsy (alternatief);6,5% transactie + 4% + EUR 0,30 betaling + USD 0,20 listing;zie C;zie C;zie C;"wisepim.com/tools/etsy-fee-calculator; gelato.com/nl/blog/etsy-fees"
+Arbeid eigen (uren);model, repareren, slicen, nabewerken, inpakken, klantcontact;1,25;1,50;1,75;eigen schatting
+Arbeid schilder (uren);zie rapport 3.4;2,00;3,25;4,25;eigen schatting
+Arbeid in euro (EUR 15/uur);rekentarief, geen loon;48,75;71,25;90,00;AANNAME
+KOSTPRIJS incl. arbeid, excl. betaalkosten;;63,53;90,31;114,41;
+;;;;;
+"# B. PRIJSNIVEAUS (consumentenprijs incl. verzending NL; met KOR geen btw)";;8 cm;12 cm;15 cm;
+Laag (marktconform);verkoopprijs;49,00;65,00;79,00;eigen voorstel o.b.v. concurrenten.csv
+Midden;verkoopprijs;59,00;79,00;99,00;eigen voorstel o.b.v. concurrenten.csv
+Hoog (premium);verkoopprijs;75,00;99,00;125,00;eigen voorstel o.b.v. concurrenten.csv
+;;;;;
+# C. MARGE PER BEELDJE (Shopify);;8 cm;12 cm;15 cm;
+Laag (marktconform): betaalkosten;2,9% + 0,30;1,72;2,19;2,59;
+Laag (marktconform): marge excl. arbeid (te verdelen);prijs - directe kosten - betaalkosten;32,50;43,75;52,00;
+Laag (marktconform): marge na arbeid tegen EUR 15/uur;;-16,25;-27,50;-38,00;
+Laag (marktconform): opbrengst per arbeidsuur;marge excl. arbeid / totaal uren;10,00;9,21;8,67;
+Laag (marktconform): marge excl. arbeid ZONDER KOR (21% btw af);;23,99;32,47;38,29;"Belastingdienst; btw 21% van prijs incl. btw"
+Midden: betaalkosten;2,9% + 0,30;2,01;2,59;3,17;
+Midden: marge excl. arbeid (te verdelen);prijs - directe kosten - betaalkosten;42,21;57,34;71,42;
+Midden: marge na arbeid tegen EUR 15/uur;;-6,54;-13,91;-18,58;
+Midden: opbrengst per arbeidsuur;marge excl. arbeid / totaal uren;12,99;12,07;11,90;
+Midden: marge excl. arbeid ZONDER KOR (21% btw af);;31,97;43,63;54,24;"Belastingdienst; btw 21% van prijs incl. btw"
+Hoog (premium): betaalkosten;2,9% + 0,30;2,48;3,17;3,92;
+Hoog (premium): marge excl. arbeid (te verdelen);prijs - directe kosten - betaalkosten;57,74;76,77;96,67;
+Hoog (premium): marge na arbeid tegen EUR 15/uur;;8,99;5,52;6,67;
+Hoog (premium): opbrengst per arbeidsuur;marge excl. arbeid / totaal uren;17,77;16,16;16,11;
+Hoog (premium): marge excl. arbeid ZONDER KOR (21% btw af);;44,73;59,58;74,97;"Belastingdienst; btw 21% van prijs incl. btw"
+Ter vergelijking Etsy, prijsniveau Midden;;;;;
+Midden via Etsy: platform- en betaalkosten;;6,67;8,77;10,87;
+Midden via Etsy: marge excl. arbeid;;37,55;51,17;63,72;
+;;;;;
+# D. VASTE STARTKOSTEN EN BREAK-EVEN;;;;;
+Startpakket schilder (basis);;144,71;;;"zie startpakket.csv; kvk.nl/inschrijven/inschrijfvergoeding; eigen schatting"
+KVK-inschrijving;;85,15;;;"zie startpakket.csv; kvk.nl/inschrijven/inschrijfvergoeding; eigen schatting"
+Proefprints, mislukte modellen, fotobenodigdheden;;25,00;;;"zie startpakket.csv; kvk.nl/inschrijven/inschrijfvergoeding; eigen schatting"
+Rol PLA grijs (voorraad, 1 kg);;22,25;;;"zie startpakket.csv; kvk.nl/inschrijven/inschrijfvergoeding; eigen schatting"
+Totaal vaste startkosten;;277,11;;;
+Break-even Laag (marktconform) (stuks, excl. arbeid);vaste kosten / marge excl. arbeid;9;7;6;
+Break-even Laag (marktconform) bij mix 25/50/25%;;7;;;mix 8/12/15 cm = aanname
+Break-even Midden (stuks, excl. arbeid);vaste kosten / marge excl. arbeid;7;5;4;
+Break-even Midden bij mix 25/50/25%;;5;;;mix 8/12/15 cm = aanname
+Break-even Hoog (premium) (stuks, excl. arbeid);vaste kosten / marge excl. arbeid;5;4;3;
+Break-even Hoog (premium) bij mix 25/50/25%;;4;;;mix 8/12/15 cm = aanname
+;;;;;
+# E. VERDELING MET SCHILDER (prijsniveau Midden);;8 cm;12 cm;15 cm;
+Optie 1: vast bedrag schilder;per beeldje, ongeacht verkoopprijs;25,00;35,00;45,00;voorstel
+Optie 1: schilder per uur;;12,50;10,77;10,59;
+Optie 1: rest voor jou;marge excl. arbeid - vast bedrag;17,21;22,34;26,42;
+Optie 1: jij per uur;;13,76;14,90;15,10;
+Optie 2: winstdeling 50/50 - schilder;50% van marge excl. arbeid;21,10;28,67;35,71;voorstel
+Optie 2: schilder per uur;;10,55;8,82;8,40;
+Optie 2: jij;50% van marge excl. arbeid;21,10;28,67;35,71;
+Optie 2b: winstdeling naar uren - schilder;aandeel = schilderuren / totaal uren;25,97;39,24;50,59;voorstel
+Optie 2b: jij;;16,23;18,11;20,83;

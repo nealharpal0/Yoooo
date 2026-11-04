@@ -146,3 +146,70 @@ Reken voor nabewerking ±20–40 minuten per beeldje bij FDM en ±15–25 minute
 - Filler primer: https://forums.kitmaker.net/t/filling-3d-ripples/33574 ; https://plastmodel.pl/en/products/7173-mr-surfacer-1000-sf-284 ; https://evezone.evetech.co.za/build-lab/how-to-finish-3d-printed-props-sand-fill-prime-and-paint
 
 ---
+
+## 3. Beschilderen
+
+### 3.1 Methodes
+
+| Methode | Voordelen | Nadelen | Advies |
+|---|---|---|---|
+| **Penseel** | Goedkoop, weinig voorbereiding, ideaal voor ogen, neus en aftekeningen | Grote vlakken en zachte overgangen kosten meer tijd | Hiermee beginnen |
+| **Airbrush** | Snelle, egale grondlagen en zachte overgangen (bijv. vachtverloop) | Compressor en schoonmaakspullen zijn een investering; oefenen met verdunnen, druk en nevel; maakt je niet vanzelf sneller | Pas na 5–10 beeldjes, als het volume groeit |
+| **Combinatie** | Airbrush voor basis, penseel voor detail; veel schilders werken zo | — | Doelvorm op termijn |
+
+Praktische technieken voor vacht (eigen advies, gangbaar in de miniatuurhobby): een **"speedpaint"/contrastverf** die zelf in de diepere delen van de vacht loopt, daarna **droogborstelen** (drybrushing) met een lichtere tint om de vachtstructuur op te laten lichten, en tot slot detail met een fijn penseel. De zoekresultaten bevestigden deze vacht-technieken niet specifiek; laat je vriend ze testen op een proefprint.
+
+### 3.2 Opbouw van de lagen
+
+1. **Filler primer** (alleen FDM, zie 2.4) → schuren.
+2. **Primer** in grijs (neutraal), wit (lichte dieren) of zwart (donkere dieren).
+3. **Basiskleuren** in acrylverf (watergedragen, makkelijk schoon te maken).
+4. **Schaduw en licht**: speedpaint/wash en droogborstelen.
+5. **Details**: ogen, neus, nagels, halsband; een glanzend puntje op de ogen maakt het beeldje levendig.
+6. **Matte vernis** ter bescherming; eventueel glansvernis alleen op ogen en neus.
+
+### 3.3 Startpakket voor je vriend
+
+Volledige lijst met winkels, URL's en status in [`startpakket.csv`](startpakket.csv) (puntkomma-gescheiden, decimale komma). Samengevat, prijzen incl. btw zoals gevonden op 4 november 2026:
+
+| Pakket | Inhoud | Totaal |
+|---|---|---|
+| **Basis** | Warpaints Starter Set (€ 34,00), penselen (€ 15,99), wet palette (€ 21,95), Vallejo primer (€ 12,99), Motip primer-spuitbus (€ 4,99), Motip filler (€ 13,37), matte vernis (€ 9,49), Hobby Tool Kit (€ 31,93) | **± € 145** |
+| **+ Speedpaint** | Speedpaint Starter Set 2.0 (€ 39,99) | ± € 185 |
+| **+ Airbrush** | Revell Airbrush Basic Set met compressor (€ 99,95) | ± € 285 |
+
+Kanttekeningen: schuurpapier, handschoenen en stofmasker hebben geen geverifieerde prijs. De vernisprijs komt van een Letse webshop omdat er geen Nederlandse prijs werd gevonden. De wet palette was uitverkocht; een zelfgemaakte versie (bakje, keukenpapier, bakpapier) werkt ook. Besparen: sla de wet palette en de tool kit over (alleen een zijkniptang en hobbymes), dan kom je op ± € 90–100 (eigen schatting).
+
+### 3.4 Schildertijd per beeldje
+
+Er is geen bron voor huisdierbeeldjes specifiek. Ijkpunten uit hobbyfora: een figuur op 28 mm-schaal kost 1,5–3 uur, een gangbare opdracht 4–6 uur, en een 75 mm-figuur grofweg 5–10 uur (schatting op basis van die fora). Een huisdier is één onderwerp zonder kleding of wapens, maar de vacht en aftekeningen vragen precisie.
+
+**Eigen schatting (exclusief droogtijd, voor iemand met wat ervaring):**
+
+| Formaat | Schildertijd | Eerste 5 beeldjes |
+|---|---|---|
+| 8 cm | 1,5–2,5 uur | reken ±2× zo lang |
+| 12 cm | 2,5–4 uur | reken ±2× zo lang |
+| 15 cm | 3,5–5 uur | reken ±2× zo lang |
+
+Laat je vriend bij de testbeeldjes de tijd bijhouden en pas `kostprijs.csv` daarop aan.
+
+### 3.5 Kleuren en aftekeningen vastleggen met de klant
+
+Bijna alle aanbieders van huisdierportretten en -beeldjes sturen de klant een **foto ter goedkeuring** vóór verzending, vaak met één gratis correctieronde. Een vaste kleurprocedure vond ik in de bronnen niet; dit is een voorstel:
+
+1. **Intakeformulier** bij de bestelling: naam en ras van het dier, vachtkleur(en), kleur van ogen en neus, bijzondere kenmerken (bles, sokjes, vlekken, scheur in oor), wel/geen halsband (kleur, eventueel naamplaatje).
+2. **Foto's** volgens 1.5, waarvan minstens één in daglicht zonder filter, plus close-ups van elke aftekening.
+3. **Aftekeningenkaart**: een eenvoudig silhouet (voor, zij, achter, boven) waarop de klant de vlekken intekent of omcirkelt. Kan als PDF of als foto van een print.
+4. **Goedkeuring 1 – model**: stuur een render of foto van het grijze 3D-model (houding en verhoudingen). Pas na akkoord printen.
+5. **Goedkeuring 2 – verf**: foto van het beschilderde beeldje in daglicht vóór de vernislaag. Eén kleine correctieronde inbegrepen; grotere wijzigingen tegen meerprijs.
+6. **Vastleggen**: noteer per bestelling de gebruikte verfkleuren en mengverhoudingen, zodat een nabestelling er hetzelfde uitziet.
+7. **Verwachting managen** op de productpagina: handwerk, dus kleine verschillen met de foto zijn mogelijk.
+
+**Bronnen deel 3**
+- Penseel vs airbrush: https://tistaminis.com/blogs/blog/airbrush-vs-brush-when-each-wins-for-miniatures-painting ; https://www.scalemodelshop.co.uk/paint-brushes-vs-airbrush-scale-models/ ; https://www.wargamer.com/the-best-airbrush-for-miniatures
+- Schildertijd: https://cypaint.com/article/how-to-prices-a-commission-miniature-painting ; https://www.coolminiornot.com/forums/threads/how-long-do-you-spend-on-a-figure.10345/
+- Goedkeuringsfoto's: https://www.riverry.com/products/mini-custom-watercolor-pet-portrait-cat-46341 ; https://madeit.com.au/products/handmade-custom-pet-plush-from-photo-pet-keepsake-ornament-memorial-gift-stellar-craft ; https://etsy.com/shop/SiennaPetPortraits
+- Prijzen startpakket: zie URL's in `startpakket.csv` (o.a. https://de-dondersteen.nl/products/the-army-painter-warpaints-starter-paint-set ; https://www.123-3d.nl/Vallejo-Surface-Primer-Grey-200-ml-74601-i9597.html ; https://www.toemen.nl/en/product/revell-airbrush-basic-set-with-compressor-version-2023)
+
+---

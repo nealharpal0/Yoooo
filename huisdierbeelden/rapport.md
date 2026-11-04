@@ -213,3 +213,49 @@ Bijna alle aanbieders van huisdierportretten en -beeldjes sturen de klant een **
 - Prijzen startpakket: zie URL's in `startpakket.csv` (o.a. https://de-dondersteen.nl/products/the-army-painter-warpaints-starter-paint-set ; https://www.123-3d.nl/Vallejo-Surface-Primer-Grey-200-ml-74601-i9597.html ; https://www.toemen.nl/en/product/revell-airbrush-basic-set-with-compressor-version-2023)
 
 ---
+
+## 4. Markt en concurrenten
+
+Volledige lijst (15 aanbieders) in [`concurrenten.csv`](concurrenten.csv). Prijzen zijn momentopnames uit zoekresultaten van 4 november 2026; levertijden en reviews ontbraken bij veel kleine webshops.
+
+### 4.1 Prijsladder
+
+| Segment | Voorbeelden | Prijs (±10–12 cm) |
+|---|---|---|
+| **Onbeschilderd, één kleur** | Solid Memories (NL), 3D Huisdier (NL), Verrassingsdoos (NL) | € 25–60 (Solid Memories: 8 cm € 15,99 / 12 cm € 29,99 / 16 cm € 39,00) |
+| **Handbeschilderde 3D-print** | Atelier Robijns (BE), Etsy-verkopers, Minipiece (NL) | € 45–55; Etsy ± $25–65 |
+| **Handgeboetseerd** | Klischklick (DE) | € 126 (5–10 cm, incl. verzending) |
+| **Meerkleurige FDM-print** | 3d-druck-scan.com (DE), Figuroo (DE) | € 80–200; Figuroo € 25–120 |
+| **Full-colour print (vergelijking)** | Youlittle (DE), machmich3d (DE), DoubleMe3d (NL), My3DSelfie, Cuddle Clones (VS) | € 149–420; Cuddle Clones ± $99–129 (4 inch) |
+
+### 4.2 Observaties
+
+- **De directe concurrent zit laag in prijs.** Atelier Robijns (BE) verkoopt een handbeschilderd 3D-geprint beeldje van ±10 cm voor € 44,95 met 15–20 werkdagen productietijd. Etsy-verkopers zitten in dezelfde orde. Onbeschilderde prints beginnen al bij € 16.
+- **Full-colour printen is geen goedkope route.** Full-colour diensten (vaak op basis van een scan, gips/zandsteen) kosten € 149–420 voor 5–10 cm. Handbeschildering is dus een realistisch alternatief, maar de klant betaalt bij concurrenten niet veel extra voor "met de hand".
+- **Levertijden** die wel gevonden zijn: 15–20 werkdagen (Atelier Robijns), 3–5 weken (My3DSelfie). Een levertijd van 2–3 weken is dus concurrerend.
+- **Formaten 8, 12 en 15/16 cm** komen terug bij Solid Memories; ±10 cm is het meest voorkomende enkele formaat.
+
+### 4.3 Wat klanten waarderen en missen (reviews)
+
+Er zijn weinig onafhankelijke reviews over deze kleine aanbieders. Wat terugkomt in de gevonden reviews:
+
+**Gewaardeerd**
+- **Gelijkenis**: "het is echt mijn hond/kat" is het belangrijkste compliment (Herdenkingsbeeldje.nl, My3DSelfie, Etsy).
+- **Meedenken en aanpassen**: klanten waarderen dat ze een prototype of foto kregen en wijzigingen konden doorgeven (My3DSelfie, PetPalsDIY).
+- **Goedkeuring vóór verzending**: veel verkopers sturen eerst een foto; klanten zien dat als zekerheid.
+
+**Gemist of klachten**
+- **Prijs/waarde**: full-colour beeldjes worden als duur en soms tegenvallend ervaren (My3DSelfie, Trustpilot UK).
+- **Standaardmodel in plaats van het eigen dier**: een Trustpilot-review van PetPalsDIY klaagt over "generieke koppen met een beetje verf".
+- **Verwachting niet waargemaakt**: bij Petsies kreeg een koper een geprinte foto terwijl hij handwerk verwachtte.
+- **Levertijd langer dan beloofd**: komt voor bij verwante herdenkingswebshops (bijv. Herinnerdingendoos.nl).
+
+**Les voor jou:** beloof alleen wat je waarmaakt (echt handwerk, echte levertijd), laat foto's van eigen werk zien en bouw twee goedkeuringsmomenten in (zie 3.5).
+
+**Bronnen deel 4**
+- NL/BE: https://solidmemories.nl/ ; https://3dhuisdier.nl/ ; https://www.minipiece.nl/producten/huisdieren-1 ; https://verrassingsdoos.com/shop/3d-beeldje-van-foto ; https://doubleme3d.nl/3d-dieren/ ; https://duplify.nl/3d-sculptuur-huisdier/ ; https://www.atelierrobijns.be/product/3d-print-van-je-huisdier/ ; https://dk.trustpilot.com/review/herdenkingsbeeldje.nl
+- DE: https://figuroo.de/product/3d-avatar-hund-katze/ ; https://3d-druck-scan.com/produkt/3d-miniatur-figur-ihr-haustier-hund-katze-mehrfarbig/ ; https://youlittle.com/3d-figuren/preise/ ; https://machmich3d.de/produkt/3d-figur-haustiere/ ; https://www.klischklick.de/figuren/
+- Internationaal: https://my3dselfie.com/nl-nl/products/urn-figurine-back ; https://uk.trustpilot.com/review/my3dselfie.com ; https://no.trustpilot.com/review/my3dselfie.com ; https://www.dogster.com/lifestyle/cuddle-clones-review/ ; https://www.etsy.com/market/custom_pet_figurine_from_photo ; https://www.etsy.com/market/hand_painted_dog_figurine
+- Klachten: https://ca.trustpilot.com/review/petpalsdiy.com ; https://articles.hepper.com/petsies-custom-pet-plushies-review/ ; https://nl-be.trustpilot.com/review/herinnerdingendoos.nl
+
+---

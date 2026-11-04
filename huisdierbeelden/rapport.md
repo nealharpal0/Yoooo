@@ -75,3 +75,74 @@ Start met **Meshy Pro (1 maand, $20)** en een vaste werkwijze: foto's → model 
 - Freelance: https://www.fiverr.com/gigs/3d-animal-sculpt ; https://www.fiverr.com/categories/graphics-design/buy/character-modeling/3d-printing ; https://www.etsy.com/market/custom_pet_sculpture
 
 ---
+
+## 2. Printen om te beschilderen
+
+### 2.1 FDM of resin?
+
+Je weet nog niet welk type printer je werkgever heeft. Beide zijn bruikbaar; resin geeft meer detail, FDM is eenvoudiger en veiliger.
+
+| | FDM (filament, bijv. PLA) | Resin (MSLA, vloeibare hars) |
+|---|---|---|
+| Laagdikte | 0,08–0,2 mm; 0,08–0,12 mm is een gangbaar compromis voor figuren | 0,01–0,05 mm |
+| Detail | Kenmerken kleiner dan ±0,5 mm (spuitmond 0,4 mm) vervagen; laaglijnen zichtbaar | Fijne vacht, ogen en neus blijven scherp |
+| Nabewerking | Steunen weghalen, schuren, filler primer om laaglijnen te vullen (meer werk) | Afspoelen in IPA, naharden onder UV, steunen weghalen, licht schuren |
+| Gezondheid | Ventileren; hogere temperatuur geeft meer fijnstof (BfR) | Vloeibare hars kan huidallergie geven; ventileren, nitrilhandschoenen, bril; IPA is brandbaar |
+| Sterkte | Taai, breekt niet snel | Standaardhars is broos; dunne delen breken sneller bij verzending |
+| Printtijd | Hangt af van volume | Hangt alleen af van hoogte; meerdere beeldjes tegelijk kost bijna geen extra tijd |
+
+**Advies:** voor de eerste testbeeldjes werkt FDM met 0,08–0,12 mm laagdikte en een stevig voetstuk prima, mits je vriend een filler primer gebruikt. Heeft je werk een resinprinter met een goed geventileerde ruimte, dan levert dat mooiere details en minder schuurwerk op.
+
+### 2.2 Gezondheid en ventilatie bij resin
+
+- Het **RIVM** (2016, in opdracht van de NVWA) concludeert dat 3D-printen in een consumentenomgeving risico's geeft, dat de ernst niet goed vast te stellen is en dat goede ventilatie belangrijk is. Het rapport is niet specifiek over hars.
+- **EU-OSHA** heeft een praktijkvoorbeeld gepubliceerd over het vervangen van gevaarlijke hars bij 3D-printen; resin wordt daarin als gevaarlijke stof op de werkplek behandeld.
+- Leveranciers en veiligheidsgidsen zijn het eens over de basis: niet-uitgeharde hars en kleverige verse prints alleen aanraken met **nitrilhandschoenen** (geen latex; AmeraLabs noemt minimaal 0,15 mm), **oogbescherming**, en **ventilatie** als belangrijkste maatregel. Vuistregel: ruik je de hars, dan is de ventilatie onvoldoende. "Waterwasbare" hars is niet minder giftig.
+- Lees altijd het **veiligheidsinformatieblad (SDS)** van de gebruikte hars. Vang IPA-afval en harsresten op; laat restanten uitharden in de zon voor je ze weggooit (eigen advies; check de gemeentelijke regels voor chemisch afval).
+- Op het werk: de arboregels van je werkgever gelden. Overleg wie verantwoordelijk is voor PBM en afvoer (zie deel 6).
+
+### 2.3 Formaten, printtijd en materiaal
+
+**Aannames (eigen schatting):** een zittende hond of kat met voetstuk; het volume schaalt met de derde macht van de hoogte (8 cm ≈ 0,3×, 15 cm ≈ 2× het volume van 12 cm). De ruwe rekensom voor 12 cm (kop ±4 cm, lijf ±5×7×8 cm, voetstuk) geeft ±200 cm³ massief volume. Resin: hol met 2 mm wand vanaf 12 cm. Printtijd resin: 2.400 lagen van 0,05 mm × 6–10 s per laag (belichting ±2,7 s plus het op- en neerbewegen van het platform).
+
+| Formaat | FDM: filament | FDM: printtijd | Resin: hars (incl. steunen) | Resin: printtijd |
+|---|---|---|---|---|
+| 8 cm | 20–40 g | 1,5–3 uur | 25–35 g (massief) | 2,5–4,5 uur |
+| 12 cm | 60–120 g | 4–8 uur | 50–70 g (hol) | 4–7 uur |
+| 15 cm | 120–230 g | 7–14 uur (0,12 mm) | 80–100 g (hol) | 5–8,5 uur |
+
+Ter vergelijking: op MakerWorld staan figuren van ±12 cm met een opgegeven printtijd van 2,2 uur (16 g, slank model) tot ±5 uur (126 g inclusief steunen). Het werkelijke verbruik lees je af in de slicer zodra je een echt model hebt; vervang dan deze schattingen in `kostprijs.csv`.
+
+**Materiaalprijzen (incl. btw):**
+- PLA grijs 1,75 mm, 1 kg: € 22,25 per kg (2-pack 123-3D, € 44,50) tot € 26,50 (123-3D marmergrijs). → **± € 0,02–0,03 per gram**.
+- Elegoo Standard Resin grijs, 1 kg: € 47,50 bij 123-3D.nl (tijdelijk uitverkocht bij raadplegen) en € 22,80 bij Kubii (Frankrijk). → **± € 0,025–0,05 per gram**, plus IPA, handschoenen en papier (eigen schatting ± € 0,50–1,00 per print; prijzen niet geverifieerd).
+
+**Materiaalkosten per beeldje (eigen berekening):**
+
+| Formaat | FDM (PLA) | Resin (hars + verbruik) |
+|---|---|---|
+| 8 cm | € 0,50–1,10 | € 1,10–2,70 |
+| 12 cm | € 1,30–3,20 | € 1,80–4,40 |
+| 15 cm | € 2,70–6,10 | € 2,50–5,80 |
+
+Een grijze of witte kleur is het handigst onder verf. Hol printen loont bij kleine beeldjes nauwelijks; vanaf ±12 cm wel. Zorg dan voor minstens twee afvoergaten in het voetstuk, anders blijft er hars achter en kan de print later scheuren.
+
+### 2.4 Nabewerking stap voor stap
+
+1. **Steunen verwijderen.** FDM: met een zijkniptang; "tree supports" laten minder sporen na. Resin: eerst wassen, steunen verwijderen terwijl de print nog iets zacht is, daarna naharden onder UV.
+2. **Schuren.** Hoge punten en steunresten wegschuren (korrel 120–220 bij FDM, fijner bij resin). Primer verbergt geen hoge punten; die worden juist beter zichtbaar.
+3. **Filler primer.** Een vullende primer zoals Mr. Surfacer 500 (grof) of 1000 (fijn) vult laaglijnen; daarna licht nat schuren (320–600 of fijner) en zo nodig herhalen. Ruw PLA schuurt slecht; eerst een laag filler primer en dan schuren werkt beter.
+4. **Eindprimer** in grijs, wit of zwart als ondergrond voor de verf (zie deel 3).
+
+Reken voor nabewerking ±20–40 minuten per beeldje bij FDM en ±15–25 minuten bij resin (eigen schatting, exclusief droogtijd).
+
+**Bronnen deel 2**
+- FDM vs resin: https://jlc3dp.com/blog/resin-vs-fdm-for-miniatures ; https://blog.lootstudios.com/print/the-ultimate-fdm-versus-resin-guide/ ; https://www.3dsourced.com/guides/resin-vs-fdm-for-3d-printing-miniatures/
+- RIVM: https://www.rivm.nl/publicaties/risicos-van-3d-printen-in-consumentenomgeving-technieken-materialen-en-producten ; EU-OSHA: https://osha.europa.eu/nl/publications/replacing-hazardous-resin-3d-printing-make-moulds ; BfR: https://www.bfr.bund.de/cm/349/3d-printing-a-dusty-business.pdf
+- Resin-veiligheid: https://ameralabs.com/?p=30319 ; https://jlc3dp.com/blog/resin-hazards ; VOC-studie: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12848961/
+- Printtijd resin: https://www.fabbaloo.com/news/prusa-reveals-how-they-sped-up-msla-3d-printing ; https://cults3d.com/:4019929 ; FDM-voorbeelden: https://makerworld.com/models/2911139 ; https://makerworld.com/models/1308641
+- Hol printen: https://blog.lootstudios.com/print/hollow-vs-solid-3d-models/ ; https://3dprinterly.com/how-to-hollow-resin-3d-prints-properly/
+- Prijzen: https://www.123-3d.nl/123-3D-Filament-PLA-Grijs-1-75-mm-2-pack-1-kg-i12218.html ; https://www.123inkt.nl/123-3D-Filament-PLA-Marmer-Grijs-1-75-mm-1-kg-i110111.html ; https://www.123-3d.nl/Elegoo-Standaard-resin-Grijs-1-kg-14-0007-61B-i8552.html ; https://www.kubii.com/en/consumable-materials/4594-standard-colored-resin-1-kg-for-3d-printer-3272496322394.html
+- Filler primer: https://forums.kitmaker.net/t/filling-3d-ripples/33574 ; https://plastmodel.pl/en/products/7173-mr-surfacer-1000-sf-284 ; https://evezone.evetech.co.za/build-lab/how-to-finish-3d-printed-props-sand-fill-prime-and-paint
+
+---

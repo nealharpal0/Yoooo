@@ -267,12 +267,12 @@ Het volledige rekenmodel staat in [`kostprijs.csv`](kostprijs.csv) (puntkomma-ge
 
 ### 5.1 Uitgangspunten
 
-- **Je bestaande eenmanszaak.** Volgens je second brain staat je eenmanszaak al bij KVK ingeschreven met Pootjespret als handelsnaam, en reken je **21% btw zonder kleineondernemersregeling (KOR)**. Het model trekt daarom 21% btw van de verkoopprijs af. Kosten staan inclusief btw (voorzichtig gerekend); met facturen op naam van de zaak kun je die btw terugvragen, waardoor de kosten ±17% lager uitvallen.
+- **Je bestaande eenmanszaak.** Volgens je eigen notities valt Pootjespret onder een eenmanszaak die al bij KVK staat ingeschreven, en reken je **21% btw zonder kleineondernemersregeling (KOR)**. Het model trekt daarom 21% btw van de verkoopprijs af. Kosten staan inclusief btw (voorzichtig gerekend); met facturen op naam van de zaak kun je die btw terugvragen, waardoor de kosten ±17% lager uitvallen.
 - **Printen:** FDM met PLA, 15% opslag voor mislukte prints (resin is per beeldje vergelijkbaar of iets duurder, zie 2.3).
 - **3D-model:** Meshy Pro $20/mnd (aanname 1 USD ≈ € 0,87; de koers lag in oktober–november 2026 rond 1,12–1,15 dollar per euro), verdeeld over **5 beeldjes per maand**. Bij 20 per maand daalt dit van € 3,48 naar € 0,87.
 - **Printer van je werkgever:** in het model staat een **aangenomen vergoeding van € 0,50 per printuur**. Dat is geen bedrag uit een bron, maar een plaatshouder voor de afspraak met je werkgever (zie 6.4).
 - **Verzending:** PostNL klein pakket tot 3 kg naar een huisadres in NL € 6,35 (online frankering, tarieven vanaf 12 juli 2026). België: pakket 0–2 kg naar huisadres € 12,25; reken daar € 6 toeslag. Pootjespret geeft al gratis verzending vanaf € 29,95, dus de prijzen zijn inclusief verzending NL.
-- **Betaalkosten:** Pootjespret rekent af via **Mollie**, niet via Shopify Payments, op een **Shopify Basic**-abonnement (opgevraagd via de Shopify-koppeling). Shopify rekent dan volgens meerdere bronnen **2% extra** per bestelling bij een externe betaalprovider. Mollie iDEAL: bronnen noemen € 0,29–0,32; je eigen eerste uitbetaling (€ 29,95 → € 29,56) wijst op € 0,39 inclusief btw. Creditcard bij Mollie: 1,8% + € 0,25. Het model rekent met **2% + € 0,39**.
+- **Betaalkosten:** Pootjespret rekent af via **Mollie**, niet via Shopify Payments, op een **Shopify Basic**-abonnement (opgevraagd via de Shopify-koppeling). Shopify rekent dan volgens meerdere bronnen **2% extra** per bestelling bij een externe betaalprovider. Mollie iDEAL: bronnen noemen € 0,29–0,32; het model rekent voorzichtig met € 0,39 (inclusief btw). Creditcard bij Mollie: 1,8% + € 0,25. Het model rekent met **2% + € 0,39**.
 - **Arbeid:** eigen tijd 1,25–1,75 uur en schildertijd 2–4,25 uur per beeldje (eigen schattingen). Voor de kostprijs is een rekentarief van **€ 15 per uur** gebruikt; dat is een aanname, geen loon.
 
 ### 5.2 Kostprijs per beeldje
@@ -329,7 +329,7 @@ Rekenvoorbeeld bij middenniveau (marge excl. arbeid: 8 cm € 32,41; 12 cm € 4
 **Advies:** begin met **optie 1 (vast bedrag per beeldje)** in de testfase: helder, makkelijk vast te leggen en het blijft jouw onderneming. Evalueer na 10–20 beeldjes en stap eventueel over op **winstdeling naar uren (2b)**, wat eerlijker is dan 50/50. Leg vast wie mislukte of afgekeurde beeldjes betaalt.
 
 **Bronnen deel 5**
-- Eigen gegevens: Shopify-koppeling (plan Basic, EUR), opgevraagd 4-11-2026; second brain `wiki/people/neal-assets.md`, `wiki/people/pootjespret.md`, `wiki/concepts/mollie.md` (gelezen 5-11-2026)
+- Eigen gegevens: Shopify-koppeling (plan Basic, EUR), opgevraagd 4-11-2026; eigen notities over btw, KVK en betaalprovider (geraadpleegd 5-11-2026)
 - Shopify 2% bij externe betaalprovider: https://www.trendtrack.io/nl/blog-post/hoeveel-rekent-shopify-per-verkoop-2026 ; https://sellfy.com/nl/blog/shopify-prijzen/ ; https://www.flatlineagency.com/nl/blog/shopify-payments-vs-externe-psps-verborgen-kosten-die-je-moet-kennen/
 - Mollie-tarieven: https://www.zunapro.com/netherlands/nl/blog/ideal-betaalmethoden-nederland-online-verkopers ; https://comparepsp.pages.dev/providers/mollie/ ; https://www.emerce.nl/wire/mollie-introduceert-vast-tarief-bancontact
 - Etsy-kosten: https://wisepim.com/tools/etsy-fee-calculator ; https://www.gelato.com/nl/blog/etsy-fees

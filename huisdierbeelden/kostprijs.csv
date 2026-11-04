@@ -8,7 +8,7 @@ Verpakking (doos, vulmateriaal, kaartje);eigen schatting;2,00;2,25;2,50;"doos ca
 Verzending NL (PostNL pakket tot 3 kg, huisadres, online);;6,35;6,35;6,35;PostNL tarievenboekje 12 juli 2026
 SUBTOTAAL directe kosten excl. betaalkosten en arbeid;;14,78;19,06;24,41;
 Verzending BE ter info;PostNL pakket 0-2 kg huisadres BE, online frankering;12,25;12,25;12,25;"PostNL tarievenfolder 2026b; reken BE-toeslag van EUR 6"
-Betaalkosten Mollie + Shopify;Mollie iDEAL EUR 0,39 per betaling + Shopify 2% (Basic, externe betaalprovider);zie C;zie C;zie C;"Mollie: eigen uitbetaling 29,95 -> 29,56 (second brain); bronnen noemen EUR 0,29-0,32 excl. btw; kaart 1,8% + 0,25; Shopify 2%: trendtrack.io, sellfy.com"
+Betaalkosten Mollie + Shopify;Mollie iDEAL EUR 0,39 per betaling + Shopify 2% (Basic, externe betaalprovider);zie C;zie C;zie C;"Mollie iDEAL: bronnen noemen EUR 0,29-0,32; EUR 0,39 = voorzichtige aanname incl. btw; kaart 1,8% + 0,25 (zunapro.com, comparepsp.pages.dev); Shopify 2%: trendtrack.io, sellfy.com"
 Platformkosten Shopify (abonnement);Basic-abonnement Pootjespret bestaat al;0,00;0,00;0,00;Shopify-account: plan Basic (opgevraagd 4-11-2026)
 Platformkosten Etsy (alternatief);6,5% transactie + 4% + EUR 0,30 betaling + USD 0,20 listing;zie C;zie C;zie C;"wisepim.com/tools/etsy-fee-calculator; gelato.com/nl/blog/etsy-fees"
 Arbeid eigen (uren);model, repareren, slicen, nabewerken, inpakken, klantcontact;1,25;1,50;1,75;eigen schatting
@@ -22,17 +22,17 @@ Midden;verkoopprijs;59,00;79,00;99,00;eigen voorstel o.b.v. concurrenten.csv
 Hoog (premium);verkoopprijs;75,00;99,00;125,00;eigen voorstel o.b.v. concurrenten.csv
 ;;;;;
 "# C. MARGE PER BEELDJE (Shopify + Mollie; geen KOR, dus 21% btw af)";;8 cm;12 cm;15 cm;
-Laag (marktconform): af te dragen btw (21%);prijs / 1,21 x 0,21;8,50;11,28;13,71;"Belastingdienst; eenmanszaak zonder KOR (second brain)"
+Laag (marktconform): af te dragen btw (21%);prijs / 1,21 x 0,21;8,50;11,28;13,71;"Belastingdienst; uitgangspunt: geen KOR (eigen notities)"
 Laag (marktconform): betaalkosten;2% Shopify + EUR 0,39 Mollie iDEAL;1,37;1,69;1,97;
 Laag (marktconform): marge excl. arbeid (te verdelen);prijs - btw - directe kosten - betaalkosten;24,34;32,97;38,91;
 Laag (marktconform): marge na arbeid tegen EUR 15/uur;;-24,41;-38,28;-51,09;
 Laag (marktconform): opbrengst per arbeidsuur;marge excl. arbeid / totaal uren;7,49;6,94;6,48;
-Midden: af te dragen btw (21%);prijs / 1,21 x 0,21;10,24;13,71;17,18;"Belastingdienst; eenmanszaak zonder KOR (second brain)"
+Midden: af te dragen btw (21%);prijs / 1,21 x 0,21;10,24;13,71;17,18;"Belastingdienst; uitgangspunt: geen KOR (eigen notities)"
 Midden: betaalkosten;2% Shopify + EUR 0,39 Mollie iDEAL;1,57;1,97;2,37;
 Midden: marge excl. arbeid (te verdelen);prijs - btw - directe kosten - betaalkosten;32,41;44,26;55,04;
 Midden: marge na arbeid tegen EUR 15/uur;;-16,34;-26,99;-34,96;
 Midden: opbrengst per arbeidsuur;marge excl. arbeid / totaal uren;9,97;9,32;9,17;
-Hoog (premium): af te dragen btw (21%);prijs / 1,21 x 0,21;13,02;17,18;21,69;"Belastingdienst; eenmanszaak zonder KOR (second brain)"
+Hoog (premium): af te dragen btw (21%);prijs / 1,21 x 0,21;13,02;17,18;21,69;"Belastingdienst; uitgangspunt: geen KOR (eigen notities)"
 Hoog (premium): betaalkosten;2% Shopify + EUR 0,39 Mollie iDEAL;1,89;2,37;2,89;
 Hoog (premium): marge excl. arbeid (te verdelen);prijs - btw - directe kosten - betaalkosten;45,31;60,38;76,01;
 Hoog (premium): marge na arbeid tegen EUR 15/uur;;-3,44;-10,87;-13,99;
@@ -45,7 +45,7 @@ Midden via Etsy: marge excl. arbeid;na btw;27,31;37,46;46,54;
 Startpakket schilder (basis);;144,71;;;"zie startpakket.csv; eigen schatting"
 Proefprints, mislukte modellen, fotobenodigdheden;;25,00;;;"zie startpakket.csv; eigen schatting"
 Rol PLA grijs (voorraad, 1 kg);;22,25;;;"zie startpakket.csv; eigen schatting"
-KVK-inschrijving;eenmanszaak met handelsnaam Pootjespret bestaat al;0,00;;;"second brain (neal-assets.md); activiteit eventueel laten toevoegen"
+KVK-inschrijving;eenmanszaak met handelsnaam Pootjespret bestaat al;0,00;;;"bestaande inschrijving (eigen notities); activiteit eventueel laten toevoegen"
 Totaal vaste startkosten;;191,96;;;"bedragen incl. btw; btw is aftrekbaar met factuur op naam van de zaak"
 Break-even Laag (marktconform) (stuks, excl. arbeid);vaste kosten / marge excl. arbeid;8;6;5;
 Break-even Laag (marktconform) bij mix 25/50/25%;;6;;;mix 8/12/15 cm = aanname

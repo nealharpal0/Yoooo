@@ -407,3 +407,19 @@ Rekenvoorbeeld bij middenniveau (marge excl. arbeid: 8 cm € 32,41; 12 cm € 4
 - Auteursrecht en beeldmateriaal: https://ondernemersplein.kvk.nl/auteursrecht ; https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/foto-en-film/beeldmateriaal ; Meshy-eigendom: https://help.meshy.ai/en/articles/10137554-what-is-the-ownership-of-the-generated-models
 
 ---
+
+## 7. Productpagina
+
+De concepttekst staat in [`productpagina.md`](productpagina.md), geschreven in de huisstijl van Pootjespret (warm, persoonlijk, "je/jouw"). Opbouw:
+
+1. **Kop en intro** met de belofte: beeldje van het eigen dier, met de hand beschilderd, met twee goedkeuringsmomenten.
+2. **Formaten en prijzen**: 8 cm € 59, 12 cm € 79, 15 cm € 99 (incl. btw en verzending NL; België + € 6).
+3. **Bestelflow in 6 stappen**: formaat kiezen → foto's uploaden → vachtformulier en aftekeningenkaart → goedkeuring 3D-model → schilderen en goedkeuring kleur → verzenden. Levertijd als invulveld (voorstel: ±3 weken, vast te stellen na de testbeeldjes).
+4. **Foto-tips** (zie 1.5).
+5. **Goed om te weten**: handwerk, geen bedenktijd (maatwerk), keuze voor betalen (vooraf of 50% aanbetaling), geen speelgoed, onderhoud, materiaal en de verplichte fabrikantgegevens.
+6. **Veelgestelde vragen** en **verplichte vinkjes** bij afrekenen (geen bedenktijd, toestemming foto's, optioneel toestemming voor social media).
+7. **Notities voor Shopify** (niet voor de klant): varianten, btw aanzetten, uploadoplossing, aanbetaling.
+
+Er staan geen reviews, klantaantallen of verzonnen garanties in. Vul ze pas in als ze echt zijn.
+
+---

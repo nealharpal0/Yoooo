@@ -423,3 +423,42 @@ De concepttekst staat in [`productpagina.md`](productpagina.md), geschreven in d
 Er staan geen reviews, klantaantallen of verzonnen garanties in. Vul ze pas in als ze echt zijn.
 
 ---
+
+## 8. Advies: 5 testbeeldjes deze maand
+
+**Doel:** in november 5 beeldjes maken én verkopen, zo goedkoop mogelijk, om de echte tijd, kosten en reacties te meten.
+
+### 8.1 Goedkoopste opzet
+
+| Onderdeel | Keuze | Kosten (incl. btw) |
+|---|---|---|
+| 3D-model | Eerst gratis Meshy-plan voor 1–2 proeven met een eigen huisdierfoto (niet verkopen); daarna **Meshy Pro voor één maand** voor de 5 klantmodellen, en weer opzeggen | ± € 17 ($20) |
+| Printen | **FDM op de printer van je werk** (na schriftelijke toestemming), grijs PLA, alleen **8 en 12 cm**, 0,12 mm laagdikte, met voetstuk | rol PLA € 22,25 (genoeg voor ±10 beeldjes van 12 cm) + vergoeding werkgever (af te spreken) |
+| Schilderen | **Uitgekleed startpakket**: Warpaints Starter Set € 34, penselen € 15,99, Motip-primer € 4,99, Motip filler € 13,37, matte vernis € 9,49; wet palette zelf maken; zijkniptang en hobbymes los of uit eigen gereedschap | ± € 78 (+ gereedschap, prijs niet geverifieerd) |
+| Verkopen | **Pootjespret** (bestaand Shopify-abonnement) + je eigen netwerk en de Pootjespret-socials; geen Etsy in de testfase | € 0 extra; betaalkosten ± € 1,60–2 per beeldje |
+| Verzenden | Lokaal zelf afgeven waar het kan; anders PostNL | € 0–6,35 per beeldje |
+| Verpakking | Doos, vulmateriaal, kaartje | ± € 2 per beeldje |
+| **Totaal uitgaven** | | **± € 160–200** voor 5 beeldjes |
+
+Bij een **testprijs van € 49 (8 cm) / € 65 (12 cm)** en 5 verkochte beeldjes is de omzet ± € 245–325 incl. btw (± € 200–270 excl. btw). Je verdient je uitgaven dan ongeveer terug, en je houdt het startpakket en de rest van de rol PLA over. De uren zijn in de testfase nog niet betaald; dat is de prijs van het leren. Spreek met je vriend ook voor de test een vast bedrag af (bijvoorbeeld € 15–20 per beeldje), zodat de afspraak meteen echt is.
+
+Noem de lagere prijs eerlijk een **introductieprijs voor de eerste 5 bestellingen** in ruil voor feedback en (met toestemming) foto's. Toon geen nep-"van"-prijs; de ACM let op misleidende kortingen.
+
+### 8.2 Planning november
+
+| Week | Wat |
+|---|---|
+| **Wk 45 (5–8 nov)** | Toestemming werkgever (schriftelijk) en printertype vaststellen; afspraak met je vriend op papier (vast bedrag, 1 A4); startpakket en PLA bestellen; proefmodel van een eigen of bekend huisdier maken en printen |
+| **Wk 46 (9–15 nov)** | Productpagina live als "eerste 5 plekken"; 5 klanten werven in je netwerk en via Pootjespret; foto's en vachtformulier binnen; Meshy Pro afsluiten; modellen maken en ter goedkeuring sturen |
+| **Wk 47 (16–22 nov)** | Printen en nabewerken (filler, schuren, primer); je vriend schildert, tijd bijhouden per beeldje |
+| **Wk 48 (23–29 nov)** | Goedkeuringsfoto's, kleine correcties, vernissen, verzenden of afgeven |
+| **30 nov** | Evaluatie: echte uren en kosten invullen in `kostprijs.csv`, feedback ophalen, prijs en levertijd vaststellen voor december |
+
+### 8.3 Beslisregels na de test
+
+- **Doorgaan** als klanten het dier herkennen, de echte tijd per 12 cm-beeldje onder ± 5 uur samen ligt en minstens de helft van de klanten zegt het beeldje voor de normale prijs te kopen of aan te raden.
+- **Prijs omhoog** naar midden of hoog als de kwaliteit goed is; de marge op het lage niveau dekt jullie uren niet (zie 5.3).
+- **Proces aanpassen** als AI-modellen vaak mislukken: vaste houdingen (zittend/liggend), meer foto's vragen, of een freelancer voor lastige dieren.
+- **Stoppen of anders inrichten** als de printer niet beschikbaar blijft of de schildertijd veel hoger uitvalt dan geschat.
+
+---

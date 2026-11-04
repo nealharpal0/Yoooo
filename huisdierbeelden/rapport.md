@@ -247,7 +247,7 @@ Er zijn weinig onafhankelijke reviews over deze kleine aanbieders. Wat terugkomt
 **Gemist of klachten**
 - **Prijs/waarde**: full-colour beeldjes worden als duur en soms tegenvallend ervaren (My3DSelfie, Trustpilot UK).
 - **Standaardmodel in plaats van het eigen dier**: een Trustpilot-review van PetPalsDIY klaagt over "generieke koppen met een beetje verf".
-- **Verwachting niet waargemaakt**: bij Petsies kreeg een koper een geprinte foto terwijl hij handwerk verwachtte.
+- **Verwachting niet waargemaakt**: bij Petsies kreeg een koper een geprinte foto in plaats van het verwachte handwerk.
 - **Levertijd langer dan beloofd**: komt voor bij verwante herdenkingswebshops (bijv. Herinnerdingendoos.nl).
 
 **Les voor jou:** beloof alleen wat je waarmaakt (echt handwerk, echte levertijd), laat foto's van eigen werk zien en bouw twee goedkeuringsmomenten in (zie 3.5).
@@ -260,18 +260,19 @@ Er zijn weinig onafhankelijke reviews over deze kleine aanbieders. Wat terugkomt
 
 ---
 
+
 ## 5. Kostprijs, verkoopprijs en verdeling
 
 Het volledige rekenmodel staat in [`kostprijs.csv`](kostprijs.csv) (puntkomma-gescheiden, decimale komma). Pas de aannames aan zodra je echte slicer- en schildertijden hebt.
 
 ### 5.1 Uitgangspunten
 
-- **Printen:** FDM met PLA (resin is per beeldje vergelijkbaar of iets duurder, zie 2.3), 15% opslag voor mislukte prints.
-- **3D-model:** Meshy Pro $20/mnd (omgerekend met de aanname 1 USD ≈ € 0,87; de koers lag in oktober–november 2026 rond 1,12–1,15 dollar per euro), verdeeld over **5 beeldjes per maand**. Bij 20 per maand daalt dit van € 3,48 naar € 0,87.
-- **Printer van je werkgever:** in het model staat een **aangenomen vergoeding van € 0,50 per printuur**. Dat bedrag is niet gebaseerd op een bron, maar een plaatshouder voor de afspraak met je werkgever (zie 6.4).
-- **Verzending:** PostNL klein pakket tot 3 kg naar een huisadres in NL € 6,35 (online frankering, tarieven vanaf 12 juli 2026). België: pakket 0–2 kg naar huisadres € 12,25; reken daar € 6 toeslag.
-- **Betaalkosten:** Pootjespret heeft een **Shopify Basic**-abonnement (opgevraagd via de Shopify-koppeling). Het abonnement betaal je al, dus extra platformkosten zijn € 0. Voor de betaalkosten spreken bronnen elkaar tegen (iDEAL ±€ 0,29 vast; kaart 2,1% + € 0,30 of 2,9% + € 0,25). Het model rekent conservatief met **2,9% + € 0,30**.
-- **Btw:** het model gaat uit van de **kleineondernemersregeling (KOR)**, dus geen btw (zie 6.1). Zonder KOR gaat er 21% btw van de prijs af; die regel staat ook in de CSV.
+- **Je bestaande eenmanszaak.** Volgens je second brain staat je eenmanszaak al bij KVK ingeschreven met Pootjespret als handelsnaam, en reken je **21% btw zonder kleineondernemersregeling (KOR)**. Het model trekt daarom 21% btw van de verkoopprijs af. Kosten staan inclusief btw (voorzichtig gerekend); met facturen op naam van de zaak kun je die btw terugvragen, waardoor de kosten ±17% lager uitvallen.
+- **Printen:** FDM met PLA, 15% opslag voor mislukte prints (resin is per beeldje vergelijkbaar of iets duurder, zie 2.3).
+- **3D-model:** Meshy Pro $20/mnd (aanname 1 USD ≈ € 0,87; de koers lag in oktober–november 2026 rond 1,12–1,15 dollar per euro), verdeeld over **5 beeldjes per maand**. Bij 20 per maand daalt dit van € 3,48 naar € 0,87.
+- **Printer van je werkgever:** in het model staat een **aangenomen vergoeding van € 0,50 per printuur**. Dat is geen bedrag uit een bron, maar een plaatshouder voor de afspraak met je werkgever (zie 6.4).
+- **Verzending:** PostNL klein pakket tot 3 kg naar een huisadres in NL € 6,35 (online frankering, tarieven vanaf 12 juli 2026). België: pakket 0–2 kg naar huisadres € 12,25; reken daar € 6 toeslag. Pootjespret geeft al gratis verzending vanaf € 29,95, dus de prijzen zijn inclusief verzending NL.
+- **Betaalkosten:** Pootjespret rekent af via **Mollie**, niet via Shopify Payments, op een **Shopify Basic**-abonnement (opgevraagd via de Shopify-koppeling). Shopify rekent dan volgens meerdere bronnen **2% extra** per bestelling bij een externe betaalprovider. Mollie iDEAL: bronnen noemen € 0,29–0,32; je eigen eerste uitbetaling (€ 29,95 → € 29,56) wijst op € 0,39 inclusief btw. Creditcard bij Mollie: 1,8% + € 0,25. Het model rekent met **2% + € 0,39**.
 - **Arbeid:** eigen tijd 1,25–1,75 uur en schildertijd 2–4,25 uur per beeldje (eigen schattingen). Voor de kostprijs is een rekentarief van **€ 15 per uur** gebruikt; dat is een aanname, geen loon.
 
 ### 5.2 Kostprijs per beeldje
@@ -286,51 +287,53 @@ Het volledige rekenmodel staat in [`kostprijs.csv`](kostprijs.csv) (puntkomma-ge
 | Verzending NL | € 6,35 | € 6,35 | € 6,35 |
 | **Directe kosten** | **€ 14,78** | **€ 19,06** | **€ 24,41** |
 | Arbeid (uren × € 15) | € 48,75 | € 71,25 | € 90,00 |
-| **Kostprijs incl. arbeid** | **€ 63,53** | **€ 90,31** | **€ 114,41** |
+| **Kostprijs incl. arbeid** (excl. btw en betaalkosten) | **€ 63,53** | **€ 90,31** | **€ 114,41** |
 
 De **arbeid is 75–80% van de kostprijs**. Materiaal is bijna verwaarloosbaar; tijd is de echte kostenpost.
 
-### 5.3 Drie prijsniveaus (incl. verzending NL)
+### 5.3 Drie prijsniveaus (incl. 21% btw en verzending NL)
 
 | Niveau | 8 cm | 12 cm | 15 cm | Marge excl. arbeid (12 cm) | Opbrengst per arbeidsuur | Break-even (mix) |
 |---|---|---|---|---|---|---|
-| **Laag** (gelijk aan Atelier Robijns/Etsy) | € 49 | € 65 | € 79 | € 43,75 | ± € 9–10 | 7 stuks |
-| **Midden** (advies) | € 59 | € 79 | € 99 | € 57,34 | ± € 12–13 | 5 stuks |
-| **Hoog** (premium: naamplaatje, 2 correctierondes, cadeauverpakking) | € 75 | € 99 | € 125 | € 76,77 | ± € 16–18 | 4 stuks |
+| **Laag** (gelijk aan Atelier Robijns/Etsy) | € 49 | € 65 | € 79 | € 32,97 | ± € 6,50–7,50 | 6 stuks |
+| **Midden** | € 59 | € 79 | € 99 | € 44,26 | ± € 9–10 | 5 stuks |
+| **Hoog** (premium: naamplaatje, 2 correctierondes, cadeauverpakking) | € 75 | € 99 | € 125 | € 60,38 | ± € 12,50–14 | 4 stuks |
 
-- **Break-even** = vaste startkosten (€ 277: startpakket € 145, KVK € 85, proefprints € 25, rol PLA € 22) gedeeld door de marge exclusief arbeid. Bij een mix van 25% 8 cm, 50% 12 cm en 25% 15 cm. Dit is het punt waarop je je **uitgaven** terug hebt; de uren zijn dan nog niet betaald.
-- **Pas vanaf het hoge niveau** wordt de arbeid volledig gedekt tegen € 15 per uur. Op het lage niveau verdienen jullie samen ±€ 9–10 per uur.
-- **Via Etsy** kost een verkoop op middenniveau € 6,67–10,87 aan platform- en betaalkosten (6,5% transactie + 4% + € 0,30 betaling + $0,20 listing), tegenover € 2–3 via Shopify. Etsy is wel een extra vindplaats.
+- **Marge excl. arbeid** = prijs − 21% btw − directe kosten − betaalkosten. Dit bedrag verdelen jullie samen voor jullie uren.
+- **Break-even** = vaste startkosten (± € 192: startpakket € 145, proefprints € 25, rol PLA € 22; KVK-inschrijving is niet nodig) gedeeld door de marge, bij een mix van 25% 8 cm, 50% 12 cm en 25% 15 cm. Dan zijn je **uitgaven** terug; de uren zijn dan nog niet betaald.
+- **Op geen enkel niveau** wordt de arbeid volledig gedekt tegen € 15 per uur. Wil je dat, dan moet de prijs omhoog (12 cm ± € 120) of de tijd omlaag (sneller schilderen met speedpaint, kleiner formaat, vaste houdingen).
+- **Via Etsy** gaan er op middenniveau € 6,67–10,87 per verkoop naar platform- en betaalkosten (6,5% transactie + 4% + € 0,30 betaling + $0,20 listing), tegenover € 1,57–2,37 via Pootjespret. Etsy is wel een extra vindplaats.
+- **Tip:** met Shopify Payments in plaats van Mollie vervalt de extra 2% van Shopify (± € 1,60 per beeldje van € 79). Of dat voor jou kan, heb ik niet gecontroleerd.
 
-**Advies:** start op **middenniveau** (12 cm voor € 79), vergelijk na 5–10 verkopen de echte uren en schuif op naar hoog als de kwaliteit het toelaat. Concurreer niet op prijs met onbeschilderde prints (€ 16–40).
+**Advies:** start op **middenniveau** (12 cm voor € 79) voor de testbeeldjes, meet de echte uren en schuif op naar **hoog** zodra de kwaliteit vaststaat. Concurreer niet op prijs met onbeschilderde prints (€ 16–40).
 
 ### 5.4 Opbrengst verdelen met je vriend
 
-Rekenvoorbeeld bij middenniveau (marge excl. arbeid: 8 cm € 42,21; 12 cm € 57,34; 15 cm € 71,42):
+Rekenvoorbeeld bij middenniveau (marge excl. arbeid: 8 cm € 32,41; 12 cm € 44,26; 15 cm € 55,04):
 
 | | 8 cm | 12 cm | 15 cm |
 |---|---|---|---|
-| **Optie 1: vast bedrag** voor de schilder | € 25 | € 35 | € 45 |
-| → schilder per uur | € 12,50 | € 10,77 | € 10,59 |
-| → rest voor jou | € 17,21 | € 22,34 | € 26,42 |
-| **Optie 2: winstdeling 50/50** (ieder) | € 21,10 | € 28,67 | € 35,71 |
-| → schilder per uur | € 10,55 | € 8,82 | € 8,40 |
-| **Optie 2b: winstdeling naar uren** – schilder | € 25,97 | € 39,24 | € 50,59 |
-| → jij | € 16,23 | € 18,11 | € 20,83 |
+| **Optie 1: vast bedrag** voor de schilder | € 20 | € 27 | € 33 |
+| → schilder per uur | € 10,00 | € 8,31 | € 7,76 |
+| → rest voor jou (per uur) | € 12,41 (€ 9,93) | € 17,26 (€ 11,50) | € 22,04 (€ 12,59) |
+| **Optie 2: winstdeling 50/50** (ieder) | € 16,20 | € 22,13 | € 27,52 |
+| → schilder per uur | € 8,10 | € 6,81 | € 6,48 |
+| **Optie 2b: winstdeling naar uren** – schilder | € 19,94 | € 30,28 | € 38,99 |
+| → jij | € 12,46 | € 13,98 | € 16,05 |
 
 | | Vast bedrag per beeldje | Winstdeling |
 |---|---|---|
-| **Voordelen** | Simpel; je vriend weet precies wat hij/zij krijgt; jij houdt zeggenschap over prijs en kanaal; weinig administratie | Gedeeld risico en gedeelde motivatie; schilder profiteert mee van hogere prijzen; eerlijk als je vriend ook meedenkt over verkoop |
-| **Nadelen** | Jij draagt het risico (retouren, mislukte beeldjes, lage verkoop); schilder profiteert niet mee bij prijsverhoging; bij lage prijzen kan het vaste bedrag je marge opeten | Vraagt open boekhouding en afspraken over welke kosten meetellen; uitkomst per beeldje wisselt; bij 50/50 krijgt de schilder relatief weinig per uur omdat hij/zij meer uren maakt; samen ondernemen met winstdeling kan juridisch als samenwerkingsverband (vof/maatschap) gezien worden, met gedeelde aansprakelijkheid (zie 6.5) |
+| **Voordelen** | Simpel; je vriend weet vooraf precies wat een beeldje oplevert; jij houdt zeggenschap over prijs en kanaal; weinig administratie; geen gezamenlijke onderneming | Gedeeld risico en gedeelde motivatie; de schilder profiteert mee van hogere prijzen; eerlijk als je vriend ook meedenkt over verkoop |
+| **Nadelen** | Jij draagt het risico (retouren, mislukte beeldjes, weinig verkoop); de schilder profiteert niet mee bij een prijsverhoging; bij lage prijzen eet het vaste bedrag je marge op | Vraagt open boekhouding en afspraken over welke kosten meetellen; uitkomst per beeldje wisselt; bij 50/50 krijgt de schilder weinig per uur omdat schilderen de meeste tijd kost; samen ondernemen met winstdeling kan als vof gezien worden, met hoofdelijke aansprakelijkheid (zie 6.5) |
 
-**Advies:** begin met **optie 1 (vast bedrag per beeldje)** voor de testfase: helder, makkelijk vast te leggen en geen gezamenlijke onderneming. Spreek af dat jullie na 10–20 beeldjes evalueren en eventueel overstappen op **winstdeling naar uren (2b)**, wat eerlijker is dan 50/50 omdat schilderen de meeste tijd kost. Leg ook vast wie mislukte of afgekeurde beeldjes betaalt.
+**Advies:** begin met **optie 1 (vast bedrag per beeldje)** in de testfase: helder, makkelijk vast te leggen en het blijft jouw onderneming. Evalueer na 10–20 beeldjes en stap eventueel over op **winstdeling naar uren (2b)**, wat eerlijker is dan 50/50. Leg vast wie mislukte of afgekeurde beeldjes betaalt.
 
 **Bronnen deel 5**
-- Shopify-plan: opgevraagd via de Shopify-koppeling (Pootjespret, plan "Basic", valuta EUR), 4-11-2026
-- Shopify Payments NL: https://www.shopify.com/nl/blog/shopify-payments ; https://qualimero.com/blog/shopify-gebuehren ; https://www.experte.de/ecommerce/shopify-kosten
+- Eigen gegevens: Shopify-koppeling (plan Basic, EUR), opgevraagd 4-11-2026; second brain `wiki/people/neal-assets.md`, `wiki/people/pootjespret.md`, `wiki/concepts/mollie.md` (gelezen 5-11-2026)
+- Shopify 2% bij externe betaalprovider: https://www.trendtrack.io/nl/blog-post/hoeveel-rekent-shopify-per-verkoop-2026 ; https://sellfy.com/nl/blog/shopify-prijzen/ ; https://www.flatlineagency.com/nl/blog/shopify-payments-vs-externe-psps-verborgen-kosten-die-je-moet-kennen/
+- Mollie-tarieven: https://www.zunapro.com/netherlands/nl/blog/ideal-betaalmethoden-nederland-online-verkopers ; https://comparepsp.pages.dev/providers/mollie/ ; https://www.emerce.nl/wire/mollie-introduceert-vast-tarief-bancontact
 - Etsy-kosten: https://wisepim.com/tools/etsy-fee-calculator ; https://www.gelato.com/nl/blog/etsy-fees
 - PostNL: https://www.postnl.nl/api/assets/blt43aa441bfc1e29f2/blt5e65605bca8690e0/tarievenboekje-12-juli-2026.pdf ; https://www.postnl.nl/api/assets/blt43aa441bfc1e29f2/blt4645e1ee01ff026a/tarievenfolder-2026b-EN.pdf
-- KVK-inschrijfvergoeding: https://www.kvk.nl/inschrijven/inschrijfvergoeding/
 - Wisselkoers: https://tradingeconomics.com/euro-area/currency/news/498610 ; https://30rates.com/eur-usd-forecast-tomorrow-this-week
 - Verpakking: https://hyperstack.viv.nl/kartonnen-dozen/verzendkokers
 

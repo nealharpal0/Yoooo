@@ -31,17 +31,15 @@ Opgesteld in de nacht van 4 op 5 november 2026. Bronnen geraadpleegd op 4–5 no
 
 ### 1.2 AI image-to-3D in de praktijk
 
-- **Kwaliteit.** In een praktijktest van 3DWithUs maakte Meshy van één hondenfoto een herkenbaar beeldje; houding en details bleven na het printen zichtbaar. Bij Tripo hielp een extra "Refine"-stap vooral bij vacht en staart. Onafhankelijke tests zijn schaars.
-- **Typische fouten:** gaten in de mesh, omgekeerde vlakken, te dunne poten en een zeer zware mesh. Oplossing: automatisch repareren (3D Builder, Meshmixer of de slicer), dunne delen 0,5–1 mm dikker maken, mesh vereenvoudigen in Blender. Een **voetstuk** onder de poten voorkomt de meeste breuk (eigen advies).
-- **Meerdere foto's.** Meshy "Multi-View" (alleen betaald): één hoofdfoto plus maximaal 3 extra hoeken, minstens 45–90° uit elkaar, liefst voor, zij en achter met de achtergrond verwijderd.
-- **Credits Meshy.** Image-to-3D 20–25 credits plus 10 voor textuur (documentatie; de API-pagina noemt 20/30). Textuur is niet nodig voor de print, maar handig als kleurvoorbeeld.
-- **Tripo:** Professional 3.000 credits/mnd (tot 200 modellen); prijs **niet geverifieerd** ($11,94–19,90 in bronnen). Gratis modellen volgens de meeste Tripo-pagina's niet commercieel; één blog zegt CC BY. **Rodin:** commerciële licentie expliciet alleen bij Business; andere sites zeggen anders → **niet geverifieerd**.
-- **Bambu Lab MakerLab** (Meshy binnen MakerWorld): export kost 2 verdiende credits; of verkoop mag, is **onduidelijk** → alleen om te oefenen.
-- **Open-source:** de licentie van Tencent Hunyuan3D 2.0/2.1 geldt **niet in de EU** → niet gebruiken. Microsoft TRELLIS is MIT (commercieel toegestaan), maar de nieuwste versie vraagt een NVIDIA-kaart met 24 GB.
+- **Kwaliteit.** In een praktijktest van 3DWithUs maakte Meshy van één hondenfoto een herkenbaar beeldje; bij Tripo hielp een "Refine"-stap bij vacht en staart. Onafhankelijke tests zijn schaars.
+- **Typische fouten:** gaten in de mesh, te dunne poten, zeer zware mesh. Oplossen met de repairfunctie van 3D Builder, Meshmixer of de slicer, dunne delen 0,5–1 mm dikker maken en vereenvoudigen in Blender. Een **voetstuk** voorkomt de meeste breuk (eigen advies).
+- **Meshy:** image-to-3D 20–25 credits plus 10 voor textuur (handig als kleurvoorbeeld). "Multi-View" (alleen betaald): hoofdfoto plus maximaal 3 hoeken, 45–90° uit elkaar, achtergrond verwijderd.
+- **Tripo:** Professional 3.000 credits/mnd; prijs **niet geverifieerd** ($11,94–19,90). Gratis modellen volgens de meeste bronnen niet commercieel. **Rodin:** commerciële licentie expliciet alleen bij Business → **niet geverifieerd**. **Bambu MakerLab:** verkoop van de uitvoer **onduidelijk** → alleen oefenen.
+- **Open-source:** de licentie van Hunyuan3D 2.0/2.1 geldt **niet in de EU**. TRELLIS is MIT (commercieel toegestaan) maar vraagt een NVIDIA-kaart met 24 GB.
 
 ### 1.3 Fotogrammetrie en freelancers
 
-Fotogrammetrie vraagt een **stilstaand** onderwerp; zelfs ademhalen verstoort de reconstructie. Een maker scande een cavia met ±60 losse foto's, een ander een liggende hond. Voor klanten op afstand is dit onbruikbaar. Een freelancer is de reserve voor dieren waar AI faalt; leg dan vast dat je het bestand commercieel mag printen, hoeveel revisies inbegrepen zijn en wanneer het klaar is.
+Fotogrammetrie vraagt een **stilstaand** onderwerp (een maker scande een cavia met ±60 losse foto's) en is voor klanten op afstand onbruikbaar. Een freelancer is de reserve voor dieren waar AI faalt; leg dan commercieel gebruik, revisies en levertijd vast.
 
 ### 1.4 Wat de klant aanlevert
 
@@ -68,16 +66,14 @@ Afgeleid van Meshy's Multi-View-richtlijnen plus wat de schilder nodig heeft (mi
 | Detail | Kenmerken < ±0,5 mm vervagen; laaglijnen zichtbaar | Vacht, ogen en neus blijven scherp |
 | Nabewerking | Steunen weg, schuren, filler primer (meer werk) | Wassen in IPA, naharden onder UV, licht schuren |
 | Gezondheid | Ventileren; hogere temperatuur geeft meer fijnstof | Hars kan huidallergie geven; ventilatie, nitrilhandschoenen, bril; IPA is brandbaar |
-| Sterkte | Taai | Standaardhars is broos; dunne delen breken sneller |
-| Printtijd | Hangt af van volume | Hangt af van hoogte; meerdere beeldjes tegelijk kost nauwelijks extra tijd |
+| Sterkte en tijd | Taai; tijd hangt af van volume | Broos; tijd hangt af van hoogte, dus meerdere beeldjes tegelijk |
 
 **Advies:** FDM met 0,08–0,12 mm en een stevig voetstuk is goed genoeg om te beschilderen, mits er filler primer op gaat. Heeft je werk een resinprinter in een goed geventileerde ruimte, dan krijg je mooier detail en minder schuurwerk.
 
 ### 2.2 Gezondheid en ventilatie bij resin
 
-- Het **RIVM** (2016) concludeert dat 3D-printen in huis risico's geeft waarvan de ernst niet goed vast te stellen is, en dat goede ventilatie belangrijk is (niet specifiek over hars). **EU-OSHA** behandelt hars als gevaarlijke stof op de werkplek.
-- Gidsen en leveranciers zijn eensgezind: vloeibare hars en verse prints alleen met **nitrilhandschoenen** (geen latex; AmeraLabs: minimaal 0,15 mm), **oogbescherming** en vooral **ventilatie**. Ruik je hars, dan is de ventilatie onvoldoende. "Waterwasbare" hars is niet minder giftig.
-- Lees het **veiligheidsinformatieblad** van de hars, vang IPA en harsresten op en volg de arboregels van je werkgever (zie 6.4).
+- Het **RIVM** (2016) noemt de risico's van 3D-printen in huis moeilijk in te schatten en goede ventilatie belangrijk; **EU-OSHA** behandelt hars als gevaarlijke stof op de werkplek.
+- Vloeibare hars en verse prints alleen met **nitrilhandschoenen** (geen latex), **oogbescherming** en goede **ventilatie**: ruik je hars, dan is het onvoldoende. "Waterwasbare" hars is niet minder giftig. Lees het veiligheidsinformatieblad, vang IPA en harsresten op en volg de arboregels van je werkgever.
 
 ### 2.3 Formaten, printtijd en materiaal
 
@@ -89,18 +85,13 @@ Afgeleid van Meshy's Multi-View-richtlijnen plus wat de schilder nodig heeft (mi
 | 12 cm | 60–120 g / 4–8 u | 50–70 g / 4–7 u | € 1,30–3,20 | € 1,80–4,40 |
 | 15 cm | 120–230 g / 7–14 u | 80–100 g / 5–8,5 u | € 2,70–6,10 | € 2,50–5,80 |
 
-Ter vergelijking: op MakerWorld staan figuren van ±12 cm met 2,2 uur (16 g, slank) tot ±5 uur (126 g). Vervang de schattingen door slicerwaarden zodra je een echt model hebt.
+Ter vergelijking: MakerWorld-figuren van ±12 cm noemen 2,2 uur (16 g) tot ±5 uur (126 g). Vervang de schattingen door slicerwaarden.
 
 **Prijzen (incl. btw):** grijs PLA 1 kg € 22,25 (2-pack 123-3D) tot € 26,50 → ± € 0,02–0,03 per gram. Elegoo Standard Resin grijs 1 kg € 47,50 (123-3D, uitverkocht bij raadplegen) of € 22,80 (Kubii, Frankrijk) → ± € 0,025–0,05 per gram. Grijs of wit is het handigst onder verf.
 
 ### 2.4 Nabewerking
 
-1. **Steunen weg**: FDM met een zijkniptang ("tree supports" laten minder sporen na); resin eerst wassen, steunen weg, dan naharden.
-2. **Schuren**: hoge punten en steunresten weg (korrel 120–220 bij FDM). Primer verbergt hoge punten niet, hij maakt ze juist zichtbaar.
-3. **Filler primer** (bijv. Mr. Surfacer 500/1000 of een filler uit de autospuitbus) vult laaglijnen; daarna nat schuren (320–600) en zo nodig herhalen. Ruw PLA schuurt slecht, dus eerst filler, dan schuren.
-4. **Eindprimer** in grijs, wit of zwart.
-
-Reken ±20–40 minuten per beeldje bij FDM en ±15–25 minuten bij resin, exclusief droogtijd (eigen schatting).
+**Steunen weg** (zijkniptang; resin eerst wassen, dan naharden) → **schuren** van hoge punten (korrel 120–220; primer verbergt ze niet) → **filler primer** (bijv. Mr. Surfacer 500/1000 of autofiller) en nat schuren (320–600), zo nodig herhalen; ruw PLA schuurt slecht, dus eerst filler → **eindprimer**. Reken ±20–40 minuten (FDM) of ±15–25 minuten (resin) per beeldje, exclusief droogtijd (eigen schatting).
 
 ---
 
@@ -122,7 +113,7 @@ Volledige lijst met winkels en URL's in [`startpakket.csv`](startpakket.csv) (pu
 | **+ Speedpaint** | Speedpaint Starter Set 2.0 € 39,99 (officiële NL-webshop) | ± € 185 |
 | **+ Airbrush** | Revell Airbrush Basic Set met compressor € 99,95 (Toemen) | ± € 285 |
 
-Schuurpapier, handschoenen en stofmasker: prijs niet geverifieerd. Besparen kan door de wet palette zelf te maken (bakje, keukenpapier, bakpapier) en alleen een zijkniptang en hobbymes te kopen: dan ± € 90–100 (eigen schatting).
+Schuurpapier, handschoenen en stofmasker: prijs niet geverifieerd. Zelfgemaakte wet palette en losse zijkniptang en hobbymes: ± € 90–100 (eigen schatting).
 
 ### 3.3 Schildertijd
 
@@ -132,12 +123,10 @@ Geen bron voor huisdierbeeldjes. IJkpunten uit hobbyfora: een 28 mm-figuur 1,5�
 
 Bijna alle aanbieders van huisdierportretten sturen eerst een **foto ter goedkeuring**, vaak met één gratis correctie. Een vaste kleurprocedure vond ik niet; voorstel:
 
-1. **Intakeformulier**: naam en ras, vachtkleur(en), kleur ogen en neus, kenmerken (bles, sokjes, vlekken, scheurtje in een oor), halsband ja/nee.
-2. **Foto's** volgens 1.4, met close-ups van elke aftekening.
-3. **Aftekeningenkaart**: silhouet (voor, zij, achter, boven) waarop de klant vlekken intekent.
-4. **Goedkeuring 1**: foto van het grijze model (houding, verhoudingen) vóór het printen.
-5. **Goedkeuring 2**: foto van het geschilderde beeldje in daglicht vóór de vernis; één kleine correctie inbegrepen.
-6. **Vastleggen** welke verf en mengverhouding per bestelling is gebruikt, voor nabestellingen.
+1. **Intakeformulier**: ras, vachtkleuren, kleur ogen en neus, kenmerken (bles, sokjes, vlekken), halsband ja/nee; plus de foto's uit 1.4.
+2. **Aftekeningenkaart**: silhouet (voor, zij, achter, boven) waarop de klant vlekken intekent.
+3. **Goedkeuring 1**: foto van het grijze model vóór het printen. **Goedkeuring 2**: foto van het geschilderde beeldje in daglicht vóór de vernis, met één kleine correctie inbegrepen.
+4. **Vastleggen** welke verf en mengverhouding is gebruikt, voor nabestellingen.
 
 ---
 
@@ -172,12 +161,11 @@ Rekenmodel: [`kostprijs.csv`](kostprijs.csv). Pas de aannames aan zodra je echte
 
 ### 5.1 Uitgangspunten
 
-- **Btw:** volgens je eigen notities valt Pootjespret onder een eenmanszaak die al bij KVK staat en reken je **21% btw zonder KOR**. Het model trekt 21% btw van de verkoopprijs af. Kosten staan inclusief btw (voorzichtig); met facturen op naam van de zaak zijn ze ±17% lager.
-- **Productie:** FDM/PLA met 15% opslag voor misdrukken; Meshy Pro $20/mnd (aanname 1 USD ≈ € 0,87, koers okt–nov 2026 ±1,12–1,15) over **5 beeldjes per maand** (bij 20 per maand: € 0,87 per beeldje).
-- **Printer werkgever:** **aangenomen vergoeding € 0,50 per printuur** – een plaatshouder, geen bron (zie 6.4).
-- **Verzending:** PostNL pakket tot 3 kg naar huisadres NL € 6,35 (online, tarieven vanaf 12 juli 2026); België 0–2 kg € 12,25, dus € 6 toeslag. Prijzen zijn incl. verzending NL (Pootjespret heeft al gratis verzending vanaf € 29,95).
-- **Betaalkosten:** Pootjespret rekent af via **Mollie** op **Shopify Basic** (plan opgevraagd via de Shopify-koppeling). Shopify rekent dan volgens meerdere bronnen **2% extra** bij een externe betaalprovider. Mollie iDEAL € 0,29–0,32 volgens bronnen, creditcard 1,8% + € 0,25. Model: **2% + € 0,39**.
-- **Arbeid:** eigen tijd 1,25–1,75 u en schildertijd 2–4,25 u per beeldje; rekentarief **€ 15 per uur** (aanname, geen loon).
+- **Btw:** je eenmanszaak (met Pootjespret) staat al bij KVK en rekent **21% btw zonder KOR** (eigen notities); het model trekt 21% van de verkoopprijs af. Kosten staan incl. btw (voorzichtig; met facturen ±17% lager).
+- **Productie:** FDM/PLA + 15% misdrukken; Meshy Pro $20/mnd (1 USD ≈ € 0,87, aanname) over **5 beeldjes per maand**; printer werkgever **€ 0,50 per printuur** (plaatshouder, zie 6.4).
+- **Verzending:** PostNL pakket tot 3 kg NL € 6,35 (tarieven vanaf 12 juli 2026); België € 12,25, dus € 6 toeslag. Prijzen zijn incl. verzending NL.
+- **Betalen:** Mollie op **Shopify Basic**; Shopify rekent volgens bronnen **2% extra** bij een externe betaalprovider; Mollie iDEAL € 0,29–0,32, kaart 1,8% + € 0,25. Model: **2% + € 0,39**.
+- **Arbeid:** eigen tijd 1,25–1,75 u, schildertijd 2–4,25 u; rekentarief **€ 15/uur** (aanname, geen loon).
 
 ### 5.2 Kostprijs per beeldje
 
@@ -203,10 +191,9 @@ Rekenmodel: [`kostprijs.csv`](kostprijs.csv). Pas de aannames aan zodra je echte
 | **Midden** | € 59 | € 79 | € 99 | € 44,26 | ± € 9–10 | 5 stuks |
 | **Hoog** (naamplaatje, 2 correctierondes, cadeauverpakking) | € 75 | € 99 | € 125 | € 60,38 | ± € 12,50–14 | 4 stuks |
 
-- **Marge excl. arbeid** = prijs − btw − directe kosten − betaalkosten: dit verdelen jullie voor jullie uren.
-- **Break-even** = vaste startkosten ± € 192 (startpakket € 145, proefprints € 25, rol PLA € 22; KVK is al geregeld) gedeeld door de marge bij een mix van 25% 8 cm, 50% 12 cm, 25% 15 cm. Dan zijn de **uitgaven** terug, de uren nog niet.
-- **Op geen enkel niveau** zijn de uren betaald tegen € 15. Daarvoor moet de prijs omhoog (12 cm ± € 120) of de tijd omlaag (speedpaint, vaste houdingen, kleiner formaat).
-- **Etsy** kost op middenniveau € 6,67–10,87 per verkoop (6,5% + 4% + € 0,30 + $0,20), tegenover € 1,57–2,37 via Pootjespret. Met Shopify Payments in plaats van Mollie vervalt de extra 2% (± € 1,60 per beeldje van € 79); of dat voor jou kan, is niet gecontroleerd.
+- **Marge excl. arbeid** = prijs − btw − directe kosten − betaalkosten; dit verdelen jullie. **Break-even** = vaste startkosten ± € 192 (startpakket € 145, proefprints € 25, PLA € 22) / marge, bij een mix 25/50/25% van 8/12/15 cm: dan zijn de uitgaven terug, de uren nog niet.
+- **Op geen enkel niveau** zijn de uren betaald tegen € 15; daarvoor moet 12 cm naar ± € 120 of moet de tijd omlaag (speedpaint, vaste houdingen).
+- **Etsy** kost € 6,67–10,87 per verkoop (6,5% + 4% + € 0,30 + $0,20) tegen € 1,57–2,37 via Pootjespret. Shopify Payments i.p.v. Mollie scheelt de extra 2% (niet gecontroleerd of dat voor jou kan).
 
 **Advies:** start op **middenniveau** (12 cm € 79), meet de echte uren en ga naar **hoog** zodra de kwaliteit vaststaat. Concurreer niet met onbeschilderde prints (€ 16–40).
 
@@ -221,10 +208,8 @@ Bij middenniveau (marge excl. arbeid: 8 cm € 32,41; 12 cm € 44,26; 15 cm €
 | **Optie 2: winstdeling 50/50** (ieder) | € 16,20 | € 22,13 | € 27,52 |
 | **Optie 2b: winstdeling naar uren**: schilder / jij | € 19,94 / € 12,46 | € 30,28 / € 13,98 | € 38,99 / € 16,05 |
 
-| | Vast bedrag per beeldje | Winstdeling |
-|---|---|---|
-| **Voordelen** | Simpel; je vriend weet vooraf wat een beeldje oplevert; jij houdt zeggenschap over prijs en kanaal; weinig administratie; het blijft jouw onderneming | Gedeeld risico en gedeelde motivatie; de schilder profiteert mee van hogere prijzen |
-| **Nadelen** | Jij draagt het risico (mislukte beeldjes, weinig verkoop); de schilder profiteert niet mee van prijsverhogingen | Open boekhouding en afspraken over welke kosten meetellen; uitkomst wisselt; bij 50/50 krijgt de schilder weinig per uur; samen ondernemen met winstdeling kan een **vof** zijn, met aansprakelijkheid met privévermogen (zie 6.5) |
+- **Vast bedrag** – voordelen: simpel, zekerheid voor je vriend, jij houdt zeggenschap, weinig administratie, het blijft jouw onderneming. Nadelen: jij draagt het risico; je vriend profiteert niet mee van hogere prijzen.
+- **Winstdeling** – voordelen: gedeeld risico en motivatie, je vriend profiteert mee. Nadelen: open boekhouding nodig, uitkomst wisselt, bij 50/50 weinig per uur voor de schilder, en samen ondernemen kan een **vof** zijn met aansprakelijkheid met privévermogen (6.5).
 
 **Advies:** begin met **vast bedrag per beeldje**; evalueer na 10–20 beeldjes en stap eventueel over op **winstdeling naar uren**. Leg vast wie mislukte of afgekeurde beeldjes betaalt.
 
@@ -236,20 +221,17 @@ Bij middenniveau (marge excl. arbeid: 8 cm € 32,41; 12 cm € 44,26; 15 cm €
 
 ### 6.1 Inschrijving, btw en belasting
 
-- **KVK:** inschrijving is nodig als je zelfstandig levert, een prijs vraagt en regelmatig verkoopt aan anderen dan familie en vrienden. Je eenmanszaak met handelsnaam Pootjespret bestaat al (eigen notities); controleer of de activiteitenomschrijving ook het maken en verkopen van beeldjes dekt (kosten van een wijziging niet geverifieerd).
+- **KVK:** inschrijving is nodig bij zelfstandig, tegen betaling en regelmatig leveren aan anderen dan familie en vrienden. Je eenmanszaak bestaat al; check of de activiteitenomschrijving beeldjes dekt.
 - **21% btw.** Het 9%-tarief voor kunst geldt alleen voor werk dat helemaal door de kunstenaar zelf is gemaakt, niet voor serieproducten. Een kennisgroep van de Belastingdienst oordeelde dat **3D-geprinte (zwangerschaps)beeldjes** onder 21% vallen omdat de persoonlijke inbreng van de maker te klein is.
-- **KOR** (omzet tot € 20.000 per jaar): geen btw rekenen, maar ook niet aftrekken; minstens 4 weken vooraf aanmelden, minimaal 3 jaar, en hij geldt voor de **hele** eenmanszaak. Je gebruikt hem nu niet.
-- **België:** blijven je afstandsverkopen aan particulieren in andere EU-landen onder **€ 10.000 per jaar**, dan reken je Nederlandse btw.
+- **KOR** (omzet tot € 20.000/jaar): geen btw rekenen én niet aftrekken, minimaal 3 jaar, voor de **hele** eenmanszaak; nu niet in gebruik. **België:** onder € 10.000 afstandsverkopen per jaar reken je Nederlandse btw.
 - **Je vriend:** zonder eigen bedrijf is de vergoeding "inkomsten uit overig werk", zelf op te geven in de aangifte (met Zvw-bijdrage; kosten mogen eraf). Met eigen bedrijf stuurt je vriend een factuur.
-- **Uitbetaalde bedragen aan derden:** betalingen aan iemand zonder btw-factuur kunnen doorgegeven moeten worden; voor ondernemers zonder personeel volgens de Belastingdienst op uitnodiging (bronnen tegenstrijdig). Noteer per betaling naam, adres, geboortedatum en bedrag.
+- **Uitbetaalde bedragen aan derden:** betalingen zonder btw-factuur moeten mogelijk worden doorgegeven (zonder personeel: op uitnodiging; bronnen tegenstrijdig). Noteer naam, adres, geboortedatum en bedrag.
 
 ### 6.2 Herroepingsrecht en betalen
 
 - **Geen bedenktijd bij maatwerk.** Volgens de ACM geldt de bedenktijd van 14 dagen niet voor producten die volgens de specificaties van de klant zijn gemaakt of duidelijk persoonlijk zijn. Een beeldje van het eigen dier naar eigen foto's past daarin.
-- **Smalle uitzondering:** kiezen uit standaardopties (alleen formaat) is niet genoeg, en de verkoper moet kunnen aantonen dat het product aan niemand anders te verkopen is.
-- **Wel melden** vóór de bestelling (vinkje in de bestelflow); anders kan de bedenktijd tot een jaar worden verlengd.
-- **Herroepingsknop:** sinds 25 juni 2026 verplicht voor webwinkels (ACM). Die blijft nodig voor de gewone Pootjespret-producten; vermeld bij de beeldjes dat de uitzondering geldt.
-- **Wettelijke garantie** blijft: beschadigd of anders dan afgesproken = herstel of vervanging.
+- De uitzondering is **smal**: kiezen uit standaardopties is niet genoeg en de verkoper moet aantonen dat het product aan niemand anders te verkopen is. **Meld** vóór de bestelling dat er geen bedenktijd is (vinkje), anders kan die tot een jaar worden verlengd.
+- De **herroepingsknop** (verplicht sinds 25 juni 2026) blijft nodig voor de gewone producten. De **wettelijke garantie** blijft gelden (beschadigd of anders dan afgesproken).
 - **Vooruitbetaling:** een consument kan niet verplicht worden meer dan **50%** vooruit te betalen. Laat klanten kiezen: alles vooraf of 50% aanbetaling en de rest na de goedkeuringsfoto.
 
 ### 6.3 Veiligheid en etikettering
@@ -262,8 +244,7 @@ Bij middenniveau (marge excl. arbeid: 8 cm € 32,41; 12 cm € 44,26; 15 cm €
 ### 6.4 De printer van je werkgever
 
 - **Nevenwerk** mag een werkgever sinds 1 augustus 2022 alleen verbieden met een objectieve reden (veiligheid, vertrouwelijke informatie, belangenverstrengeling). Meld het wel en check je contract; een concurrentiebeding blijft gelden.
-- **De printer is van je werkgever.** Vraag **schriftelijk** toestemming en leg vast: wanneer (buiten werktijd, werkprints gaan voor); vergoeding en wie filament of hars betaalt (met factuur is de btw aftrekbaar); wie betaalt bij slijtage of schade; veiligheid en afvoer bij resin; geen gebruik van bedrijfsinformatie; opzegtermijn.
-- **Plan B:** eigen printer of printdienst (prijzen niet onderzocht).
+- **De printer is van je werkgever:** vraag **schriftelijk** toestemming en leg vast wanneer (buiten werktijd, werkprints eerst), de vergoeding en wie materiaal betaalt (met factuur is de btw aftrekbaar), wie betaalt bij schade, veiligheid en afvoer bij resin, geen gebruik van bedrijfsinformatie, en een opzegtermijn. Plan B: eigen printer of printdienst (niet onderzocht).
 
 ### 6.5 Afspraken met je vriend op papier
 
@@ -273,9 +254,8 @@ Bij middenniveau (marge excl. arbeid: 8 cm € 32,41; 12 cm € 44,26; 15 cm €
 
 ### 6.6 Foto's van klanten en privacy
 
-- De maker van een foto heeft het **auteursrecht**: laat de klant bevestigen dat de foto's van henzelf zijn (of dat ze ze mogen gebruiken) en dat jij ze mag gebruiken voor het beeldje.
-- Voor foto's op website of social media: **aparte toestemming**. Herkenbare mensen op foto's zijn persoonsgegevens; vraag foto's van alleen het dier.
-- Meld in je privacyverklaring dat een externe 3D-tool de foto's verwerkt, en gebruik een **betaald** Meshy-plan (gratis modellen vallen onder CC BY 4.0).
+- De maker van een foto heeft het **auteursrecht**: laat de klant bevestigen dat jij de foto's mag gebruiken voor het beeldje, en vraag **aparte toestemming** voor website of social media. Herkenbare mensen zijn persoonsgegevens; vraag foto's van alleen het dier.
+- Meld in je privacyverklaring dat een externe 3D-tool de foto's verwerkt en gebruik een **betaald** Meshy-plan (gratis modellen vallen onder CC BY 4.0).
 
 ---
 
@@ -302,7 +282,7 @@ Concepttekst in [`productpagina.md`](productpagina.md), in de huisstijl van Poot
 | Je vriend | Ook in de test een vast bedrag, bijv. € 15–20 per beeldje | € 75–100 |
 | **Totaal** | eenmalig ± € 117 + per stuk ± € 5–13 + je vriend | **± € 220–280** |
 
-Met een **introductieprijs van € 49 (8 cm) / € 65 (12 cm)** is de omzet van 5 beeldjes ± € 245–325 incl. btw, ofwel ± € 200–270 excl. btw. Reken op **ongeveer quitte tot ± € 80 tekort**; je houdt het schilderpakket (± € 78) en ruim een halve rol PLA over, en je eigen uren zijn nog onbetaald. Vanaf beeldje 6 vallen de eenmalige kosten weg. Noem de prijs eerlijk een **introductieprijs voor de eerste 5 bestellingen** in ruil voor feedback en (met toestemming) foto's, zonder nep-"van"-prijs: de ACM let op misleidende kortingen.
+Met een **introductieprijs van € 49 (8 cm) / € 65 (12 cm)** levert 5 beeldjes ± € 200–270 excl. btw op: **ongeveer quitte tot ± € 80 tekort**, maar je houdt het schilderpakket en een halve rol PLA over en vanaf beeldje 6 vallen de eenmalige kosten weg. Noem het eerlijk een introductieprijs voor de eerste 5 bestellingen, in ruil voor feedback en (met toestemming) foto's, zonder nep-"van"-prijs (de ACM let op misleidende kortingen).
 
 ### 8.2 Planning november
 
@@ -316,10 +296,8 @@ Met een **introductieprijs van € 49 (8 cm) / € 65 (12 cm)** is de omzet van 
 
 ### 8.3 Beslisregels na de test
 
-- **Doorgaan** als klanten hun dier herkennen, een 12 cm-beeldje samen minder dan ±5 uur kost en minstens de helft van de klanten het voor de normale prijs zou kopen of aanraden.
-- **Prijs omhoog** naar midden of hoog zodra de kwaliteit goed is; het lage niveau dekt jullie uren niet.
-- **Proces aanpassen** als AI-modellen vaak mislukken: vaste houdingen, meer foto's vragen of een freelancer voor lastige dieren.
-- **Stoppen of anders inrichten** als de printer niet beschikbaar blijft of het schilderen veel langer duurt dan geschat.
+- **Doorgaan** als klanten hun dier herkennen, een 12 cm-beeldje samen minder dan ±5 uur kost en minstens de helft het voor de normale prijs zou kopen of aanraden; dan **prijs omhoog** naar midden of hoog.
+- **Proces aanpassen** als AI-modellen vaak mislukken (vaste houdingen, meer foto's, freelancer). **Stoppen of anders inrichten** als de printer wegvalt of schilderen veel langer duurt.
 
 ---
 

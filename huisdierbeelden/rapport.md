@@ -338,3 +338,72 @@ Rekenvoorbeeld bij middenniveau (marge excl. arbeid: 8 cm € 32,41; 12 cm € 4
 - Verpakking: https://hyperstack.viv.nl/kartonnen-dozen/verzendkokers
 
 ---
+
+## 6. Regels en praktische punten
+
+> Dit is geen juridisch of fiscaal advies. De punten hieronder komen uit de genoemde bronnen; laat twijfelgevallen toetsen door de Belastingdienst, KVK of een adviseur.
+
+### 6.1 Inschrijving, btw en inkomstenbelasting
+
+- **KVK.** Je moet ingeschreven zijn als je zelfstandig producten levert, er een prijs voor vraagt en regelmatig levert aan anderen dan familie en vrienden. Volgens je eigen notities heb je al een eenmanszaak met de handelsnaam Pootjespret. Een nieuwe inschrijving is dan niet nodig; controleer wel of de omschrijving van je activiteiten bij KVK ook "vervaardigen en verkopen van beeldjes" dekt (kosten van een wijziging: niet geverifieerd).
+- **Btw-tarief: 21%.** Het verlaagde tarief (9%) voor kunstvoorwerpen geldt alleen voor werk dat helemaal door de kunstenaar zelf is gemaakt, en niet voor serieproducten of reproducties met een commercieel karakter. Een kennisgroep van de Belastingdienst oordeelde specifiek over **3D-geprinte (zwangerschaps)beeldjes** dat de persoonlijke inbreng van de maker te klein was voor 9%. Reken dus met **21%**.
+- **KOR.** De kleineondernemersregeling kan bij een omzet tot € 20.000 per kalenderjaar: je rekent dan geen btw, maar trekt ook geen btw af en doet geen aangifte. Aanmelden minstens 4 weken voor het btw-tijdvak; je zit er minimaal 3 jaar aan vast. De KOR geldt voor je **hele** eenmanszaak (dus ook voor je andere activiteiten). Je gebruikt hem nu niet; het model gaat daarom uit van 21% btw.
+- **Klanten in België.** Zolang je totale afstandsverkopen aan particulieren in andere EU-landen onder **€ 10.000 per jaar** blijven, reken je Nederlandse btw. Daarboven geldt Belgische btw (via het éénloketsysteem).
+- **Inkomstenbelasting.** De winst telt mee als winst uit onderneming van je eenmanszaak.
+- **Je vriend.** Is je vriend geen ondernemer, dan is de vergoeding voor het schilderen "inkomsten uit overig werk": die moet je vriend zelf opgeven in de aangifte, met een inkomensafhankelijke bijdrage Zvw; kosten mogen eraf. Heeft je vriend een eigen bedrijf, dan stuurt die een factuur.
+- **Uitbetaalde bedragen aan derden.** Wie werk laat doen door iemand die geen factuur met btw stuurt, kan de betalingen moeten doorgeven aan de Belastingdienst. Voor ondernemers zonder personeel gebeurt dat volgens de Belastingdienst op uitnodiging; bronnen spreken elkaar hierover tegen. Leg daarom per betaling naam, adres, geboortedatum en bedrag vast.
+
+### 6.2 Herroepingsrecht en betalen
+
+- **Geen bedenktijd bij maatwerk.** Normaal hebben consumenten bij online aankopen 14 dagen bedenktijd. Volgens de ACM geldt die niet voor producten die volgens de specificaties van de klant zijn gemaakt of die duidelijk persoonlijk zijn. Een beeldje van iemands eigen huisdier op basis van eigen foto's valt daar naar verwachting onder.
+- **Maar: smalle uitzondering.** De ACM legt dit strikt uit: kiezen uit standaardopties (zoals alleen een formaat) maakt een product niet gepersonaliseerd, en de verkoper moet kunnen aantonen dat het product aan niemand anders te verkopen is. Bij jullie is dat sterk, omdat elk beeldje naar het eigen dier wordt gemaakt.
+- **Wel melden.** Vertel de klant vóór de bestelling duidelijk dat er géén bedenktijd geldt. Ontbreekt die informatie, dan kan de bedenktijd tot een jaar verlengd worden. Laat de klant in de bestelflow een vinkje zetten.
+- **Herroepingsknop.** Volgens de ACM moeten webwinkels sinds 25 juni 2026 een knop aanbieden om een koop ongedaan te maken. Dat geldt voor de gewone producten van Pootjespret; zet bij de beeldjes duidelijk dat de uitzondering geldt.
+- **Wettelijke garantie blijft.** Komt een beeldje beschadigd aan of wijkt het af van wat is afgesproken, dan heeft de klant gewoon recht op herstel of vervanging.
+- **Vooruitbetaling.** Een consument kan niet verplicht worden meer dan **50%** van de prijs van een product vooruit te betalen; een Nederlandse webwinkel moet een betaalmogelijkheid bieden om minstens de helft achteraf te betalen. Praktisch: laat klanten kiezen tussen volledig vooraf betalen of 50% aanbetaling en de rest via een betaallink na de goedkeuringsfoto (zie 3.5).
+
+### 6.3 Veiligheid en etikettering
+
+- **GPSR.** Sinds 13 december 2024 geldt de Europese productveiligheidsverordening (in Nederland via de Warenwet; toezicht NVWA). Wie een product onder eigen naam maakt en verkoopt, geldt als **fabrikant**. Online moet bij het product zichtbaar zijn: de naam en het postadres van de fabrikant, een productaanduiding en eventuele waarschuwingen.
+- **Geen speelgoed.** Speelgoed is alles wat bedoeld of kennelijk bestemd is om door kinderen onder de 14 bij het spelen te worden gebruikt. Alleen "geen speelgoed" op het etiket is niet doorslaggevend: ook ontwerp en marketing tellen mee. Presenteer de beeldjes dus als **decoratie en herinnering voor volwassenen**, niet als speelgoed of knuffelvervanger.
+- **Voorstel etiket** (sticker onder het voetstuk en op de productpagina): *Pootjespret – handgemaakt decoratief beeldje – geen speelgoed, niet geschikt voor kinderen jonger dan 14 jaar; kleine delen kunnen afbreken – niet in contact brengen met voedsel – afstoffen met een zachte kwast, niet nat reinigen – [postadres] – bestelnummer [xxx]*. De precieze formulering is eigen advies; de verplichte elementen (naam, adres, identificatie, waarschuwingen) volgen uit de GPSR.
+- **Resin.** Lever alleen volledig uitgeharde en gewassen prints; vloeibare hars is huidgevoelig (zie 2.2).
+
+### 6.4 De printer van je werkgever
+
+- **Nevenwerk mag meestal.** Sinds 1 augustus 2022 mag een werkgever nevenwerk alleen verbieden met een objectieve reden (zoals veiligheid, vertrouwelijke informatie of belangenverstrengeling). Meld je activiteiten wel vooraf en controleer je contract; een concurrentiebeding blijft gewoon gelden.
+- **Gebruik van spullen van de zaak is iets anders.** De printer is eigendom van je werkgever. Vraag daarom **schriftelijk** toestemming voor commercieel gebruik en leg vast:
+  1. wanneer je mag printen (buiten werktijd, zonder voorrang op werkprints);
+  2. de vergoeding (per printuur, per beeldje of vast per maand) en wie het filament of de hars betaalt; laat je werkgever een factuur sturen, dan is de btw aftrekbaar;
+  3. wie betaalt bij slijtage, schade of een mislukte print, en of je werkgever aansprakelijk is;
+  4. veiligheid: bij resin ventilatie, handschoenen en de afvoer van hars en IPA (arboregels van je werkgever);
+  5. dat je geen bedrijfsinformatie of -bestanden gebruikt;
+  6. hoe de afspraak eindigt (bijvoorbeeld een maand opzegtermijn), zodat je niet ineens zonder printer zit.
+- **Plan B.** Houd rekening met een eigen printer of een printdienst als je werkgever nee zegt of de printer zelf nodig heeft (prijzen niet onderzocht).
+
+### 6.5 Afspraken met je vriend op papier
+
+- **Kies een vorm.** Bij een **vast bedrag per beeldje** is je vriend opdrachtnemer en blijft het jouw onderneming. Bij **winstdeling** en samen ondernemen ontstaat al snel een **vof**: dan is elke vennoot met privévermogen aansprakelijk voor álle schulden van de vof, ook die van de ander. KVK raadt bij een vof een samenwerkingscontract aan (inbreng, winstverdeling, bevoegdheden, beëindiging).
+- **Zet in een korte overeenkomst:** taken (wie doet wat), vergoeding per formaat en betaaltermijn, levertijd per beeldje, kwaliteitseisen en wat er gebeurt bij afkeur of herstel, wie het startpakket betaalt en van wie het is, omgang met klantgegevens en -foto's (alleen gebruiken voor de opdracht), of jullie foto's van het werk mogen gebruiken voor portfolio en social media, naamsvermelding van de schilder, en hoe jullie stoppen.
+- **Minderjarig?** Wie jonger is dan 18 heeft voor overeenkomsten toestemming van een ouder of voogd nodig; een contract zonder toestemming kan worden teruggedraaid. Vanaf 16 jaar kan handlichting bij de kantonrechter.
+
+### 6.6 Foto's van klanten en privacy
+
+- De maker van een foto heeft automatisch het **auteursrecht**. Laat de klant bij de bestelling bevestigen dat de foto's van henzelf zijn (of dat ze ze mogen gebruiken) en dat jij ze mag gebruiken om het beeldje te maken.
+- Wil je foto's van het eindresultaat of de klantfoto's op je website of social media zetten, vraag dan **aparte toestemming**. Staan er herkenbare mensen op een foto, dan zijn dat persoonsgegevens; vraag liever foto's van alleen het dier.
+- Zet in je privacyverklaring dat foto's worden verwerkt met een externe 3D-tool. Gebruik een **betaald** Meshy-plan: modellen van het gratis plan vallen onder CC BY 4.0, terwijl betaalde gebruikers eigenaar worden zolang ze de modellen niet in de Meshy-community publiceren.
+
+**Bronnen deel 6**
+- KVK-criteria: https://www.kvk.nl/starten/moet-ik-mijn-bedrijf-inschrijven-bij-kvk/ ; ondernemer IB: https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/winst/inkomstenbelasting/wanneer_bent_u_ondernemer_voor_de_inkomstenbelasting/
+- Btw-tarief kunst: https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/tarieven_en_vrijstellingen/goederen_9_btw/kunst_verzamelvoorwerpen_antiek/kunstvoorwerpen/standbeelden_en_beeldhouwwerken ; 3D-geprinte beeldjes: https://kennisgroepen.belastingdienst.nl/publicaties/kg20920233-btw-tarief-levering-3d-geprinte-zwangerschapsbeeldjes/
+- KOR: https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/kor-voorwaarden ; afstandsverkopen: https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/zakendoen_met_het_buitenland/afstandsverkopen-zoals-e-commerce-en-diensten-voor-particulieren-in-andere-eu-landen/afstandsverkopen-zoals-e-commerce-binnen-de-eu/
+- Overig werk: https://www.belastingdienst.nl/wps/wcm/connect/nl/werk-en-inkomen/content/wat-zijn-inkomsten-uit-overig-werk ; uitbetaalde bedragen aan derden: https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/personeel_en_loon/uitbetaalde_bedragen_aan_derden/ ; https://gegevensportaal.belastingdienst.nl/ubd/faq/
+- Bedenktijd: https://consument.acm.nl/aankoop-dienst-annuleren/bedenktijd ; https://www.acm.nl/nl/verkoop-aan-consumenten/klantenservice/bedenktijd ; https://www.acm.nl/nl/onderwerpen/verkoop-aan-consumenten/verkopen-aan-consumenten/checklist-verkoop-via-internet ; https://www.acm.nl/system/files/documents/definitief-besluit-openbare-waarschuwing-opslagplan.pdf ; https://consument.acm.nl/aankoop-dienst-annuleren/verplichte-informatie-bij-koop-product-dienst
+- Vooruitbetaling: https://consument.acm.nl/rekeningen-en-incassoprocedures/wat-zijn-mijn-rechten-bij-een-aanbetaling ; https://www.acm.nl/nl/verkoop-aan-consumenten/de-koop-sluiten/betaalmogelijkheden-aanbieden
+- GPSR: https://www.nvwa.nl/onderwerpen/gpsr-productveiligheidsverordening ; https://ondernemersplein.kvk.nl/gpsr-nieuwe-regels-voor-productveiligheid/ ; speelgoeddefinitie: https://zoek.officielebekendmakingen.nl/stcrt-2008-128-p28-SC86459.pdf ; https://resources.euconf.eu/casp/2022/NL/activity-reports/psa-1-toys-with-magnets-final-report/PSA1-Report-DS-03-23-169-NL-N.pdf
+- Nevenwerk: https://www.kvk.nl/wetten-en-regels/verbod-op-nevenwerkzaamheden-alleen-met-goede-reden/ ; https://www.rijksoverheid.nl/documenten/2025/02/12/de-werking-van-het-verbod-op-het-nevenwerkzaamhedenbeding-in-de-praktijk
+- Vof en samenwerkingscontract: https://www.kvk.nl/starten/de-vennootschap-onder-firma-vof/ ; https://www.kvk.nl/starten/samenwerkingscontract-voor-vof-maatschap-cv/
+- Minderjarigen: https://ondernemersplein.kvk.nl/regels-voor-minderjarige-ondernemers/ ; https://www.kvk.nl/starten/handlichting-geen-18-toch-ondernemen/
+- Auteursrecht en beeldmateriaal: https://ondernemersplein.kvk.nl/auteursrecht ; https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/foto-en-film/beeldmateriaal ; Meshy-eigendom: https://help.meshy.ai/en/articles/10137554-what-is-the-ownership-of-the-generated-models
+
+---

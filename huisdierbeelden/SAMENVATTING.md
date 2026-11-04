@@ -22,7 +22,7 @@
 
 ## Open punten
 
-- **Tripo-prijs en Rodin-licentie niet geverifieerd**; geen NL-prijs voor vernis, Mr. Surfacer, schuurpapier en handschoenen; weinig reviews en levertijden van kleine aanbieders.
+- Prijzen en licenties van Meshy, Tripo en Rodin komen uit zoekresultaten, niet van de prijspagina zelf; geen NL-prijs voor vernis, Mr. Surfacer, schuurpapier en handschoenen; weinig reviews en levertijden van kleine aanbieders.
 - Controleer op je Shopify-factuur of de 2% extra echt wordt gerekend; Shopify Payments kan goedkoper zijn.
 - Kies een uploadoplossing, stel de levertijd vast na de test en laat de bedenktijdtekst en het etiket eventueel juridisch checken.
 - **De repo Yoooo is openbaar.** Een eerdere commit bevatte een paar details uit je notities (o.a. een uitbetalingsbedrag); die zijn eruit, maar staan nog in de git-geschiedenis. Overweeg de repo privé te maken.

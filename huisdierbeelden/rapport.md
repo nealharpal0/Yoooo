@@ -34,7 +34,7 @@ Opgesteld in de nacht van 4 op 5 november 2026. Bronnen geraadpleegd op 4–5 no
 - **Kwaliteit.** In een praktijktest van 3DWithUs maakte Meshy van één hondenfoto een herkenbaar beeldje; bij Tripo hielp een "Refine"-stap bij vacht en staart. Onafhankelijke tests zijn schaars.
 - **Typische fouten:** gaten in de mesh, te dunne poten, zeer zware mesh. Oplossen met de repairfunctie van 3D Builder, Meshmixer of de slicer, dunne delen 0,5–1 mm dikker maken en vereenvoudigen in Blender. Een **voetstuk** voorkomt de meeste breuk (eigen advies).
 - **Meshy:** image-to-3D 20–25 credits plus 10 voor textuur (handig als kleurvoorbeeld). "Multi-View" (alleen betaald): hoofdfoto plus maximaal 3 hoeken, 45–90° uit elkaar, achtergrond verwijderd.
-- **Tripo:** Professional 3.000 credits/mnd; prijs **niet geverifieerd** ($11,94–19,90). Gratis modellen volgens de meeste bronnen niet commercieel. **Rodin:** commerciële licentie expliciet alleen bij Business → **niet geverifieerd**. **Bambu MakerLab:** verkoop van de uitvoer **onduidelijk** → alleen oefenen.
+- **Tripo:** volgens Tripo's eigen pagina's $19,90/mnd voor 3.000 credits, met commerciële rechten; gratis modellen niet commercieel (de prijspagina zelf is niet gelezen). **Rodin:** de voorwaarden beperken het gebruik van output niet, maar commercieel exporteren hangt af van het abonnement; de site zegt dat betaalde plannen commercieel gebruik toestaan en het gratis plan niet. **Bambu MakerLab:** verkoop van de uitvoer **onduidelijk** → alleen oefenen.
 - **Open-source:** de licentie van Hunyuan3D 2.0/2.1 geldt **niet in de EU**. TRELLIS is MIT (commercieel toegestaan) maar vraagt een NVIDIA-kaart met 24 GB.
 
 ### 1.3 Fotogrammetrie en freelancers
@@ -310,7 +310,8 @@ Alle bronnen geraadpleegd op 4–5 november 2026 via zoekresultaten van WebSearc
 - Meshy licentie: https://help.meshy.ai/en/articles/9992001-can-i-use-my-generated-assets-for-commercial-projects ; https://help.meshy.ai/en/articles/10137554-what-is-the-ownership-of-the-generated-models
 - Meshy Multi-View: https://intercom.help/meshy/en/articles/12634481-how-to-use-multi-view ; https://www.meshy.ai/tutorials/multi-view-image-to-3d
 - Tripo: https://www.tripo3d.ai/help/billing/which-tripo-ai-plan-is-right-for-me ; https://www.tripo3d.ai/blog/commercial-use-ai-3d-models ; https://costbench.com/software/ai-3d-generation/tripo-ai/
-- Rodin: https://hyper3d.ai/pricing ; https://blog.picassoia.com/rodin-gen-2-5-hyper3d-image-to-3d-pricing-and-quality
+- Tripo-prijs (eigen pagina's): https://www.tripo3d.ai/tutorials/tripo-ai-best-image-types ; https://www.tripo3d.ai/3d-print/2d-image-to-3d-printable-stl-model-tool-for-creators
+- Rodin: https://hyper3d.ai/pricing ; https://hyper3d.ai/legal/terms ; https://hyper3d.ai/features/image-to-3d ; https://blog.picassoia.com/rodin-gen-2-5-hyper3d-image-to-3d-pricing-and-quality
 - Praktijktests: https://3dwithus.com/meshy-ai-hands-on-review-photo-to-3d-printing ; https://3dwithus.com/tripo-ai-review-3d-printing
 - Mesh-reparatie: https://printpal.io/wiki/preparing-ai-models-for-3d-printing ; https://www.3daistudio.com/3d-generator-ai-comparison-alternatives-guide/can-i-3d-print-ai-generated-models
 - MakerLab: https://cms.abduzeedo.com/node/89211 ; https://forum.bambulab.com/t/maker-lab-commercial-purposes/87539
